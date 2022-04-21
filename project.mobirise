@@ -81,7 +81,7 @@
       "icon": "@PROJECT_PATH@/assets/images/polizzavita.io-logo_2.svg",
       "themeColor": "#cdcb34"
     },
-    "favicon": "@PROJECT_PATH@/assets/images/pvita.io-128x36.png",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-pvita.io-128x128.png",
     "cssOptimize": true,
     "lazyLoad": true,
     "lazyType": "nothing",
