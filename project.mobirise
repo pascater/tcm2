@@ -84,7 +84,7 @@
       "popupMessage": "Ciao👋\n\nSe hai dubbi o perplessità, (o anche se vuoi semplicemente salutarmi), scrivimi quì un messaggio, sarò ben felice di fornirti una risposta utile 🔥\n\nPasquale Caterisano",
       "showPopup": true,
       "showOnIE": true,
-      "autoOpenTimeout": "9",
+      "autoOpenTimeout": "0",
       "headerColor": "#39847a",
       "headerTitle": "👋 Scrivimi su WhatsApp!",
       "placeholder": "Scrivi qui il tuo messaggio",
