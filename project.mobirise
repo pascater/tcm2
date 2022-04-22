@@ -57,18 +57,6 @@
     "sitemapSwitcher": true,
     "siteUrl": "https://pascater.github.io/tcm/",
     "sitemapSwitcherAuto": "on",
-    "cookiesAlert": {
-      "customDialogSelector": true,
-      "colorText": "#424a4d",
-      "colorBg": "#eaeff1",
-      "colorButton": "",
-      "colorLink": "#424a4d",
-      "underlineLink": true,
-      "opacity": "99",
-      "opacityOverlay": "39",
-      "text": "Al fine di migliorare l’usabilità raccogliamo dati di navigazione degli utenti sul sito tramite cookie (piccoli file di dati che vengono trasferiti tramite il Browser) eventualmente anche di terze parti. L’utente ha facoltà di impostare il proprio browser in modo che non accetti i cookies oppure può cancellarli in qualsiasi momento. Andando avanti con la navigazione sul sito acconsenti all'utilizzo degli stessi cookie.\n\nWe use cookies to give you the best experience. Se vuoi, puoi leggere la nostra <a href='https://www.iubenda.com/private/privacy-policy/2203132/legal'>cookie policy completa</a>,nella sezione \"Definizioni e riferimenti legali\".",
-      "textButton": "Ok, sono d'accordo."
-    },
     "gdpr": {
       "colorText": "#a7a7a7",
       "colorLink": "#cdcb34",
@@ -104,7 +92,9 @@
       "enabled": true
     },
     "mbrsiteDomain": "zs7gff0oog",
-    "site_lang": "it"
+    "site_lang": "it",
+    "global_footer_custom": "<!-- Cookie Consent by TermsFeed Privacy Generator https://www.TermsFeed.com -->\n<script type=\"text/javascript\" src=\"//www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js\" charset=\"UTF-8\"></script>\n<script type=\"text/javascript\" charset=\"UTF-8\">\ndocument.addEventListener('DOMContentLoaded', function () {\ncookieconsent.run({\"notice_banner_type\":\"simple\",\"consent_type\":\"express\",\"palette\":\"light\",\"language\":\"it\",\"page_load_consent_levels\":[\"strictly-necessary\"],\"notice_banner_reject_button_hide\":false,\"preferences_center_close_button_hide\":false,\"page_refresh_confirmation_buttons\":false,\"website_name\":\"PolizzaVita.io\",\"website_privacy_policy_url\":\"https://www.iubenda.com/private/privacy-policy/2203132/legal\"});\n});\n</script>\n\n<!-- Google Tag Manager -->\n<!-- Google Tag Manager -->\n<script type=\"text/plain\" cookie-consent=\"targeting\">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-WN45RBW');</script>\n<!-- End Google Tag Manager -->\n<!-- end of Google Tag Manager-->\n\n<!-- Facebook ads pixel and retargeting -->\n<!-- Facebook Pixel Code -->\n<script type=\"text/plain\" cookie-consent=\"targeting\">\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '1073733832992373');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=1073733832992373&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->\n<!-- end of Facebook ads pixel and retargeting-->\n\n<noscript>ePrivacy and GPDR Cookie Consent management by <a href=\"https://www.termsfeed.com/\" rel=\"nofollow noopener\">TermsFeed Privacy Generator</a></noscript>\n<!-- End Cookie Consent by TermsFeed Privacy Generator https://www.TermsFeed.com -->",
+    "cookiesAlert": false
   },
   "pages": {
     "index.html": {
@@ -2797,12 +2787,12 @@
           "_sourceTheme": "techm4",
           "_customHTML": "<section class=\"popup-builder\" group=\"Popup\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Triggers / Show Popup</header>\n        <label>On Click</label>\n        <label>Use [popup-id] with any link or button (Link -&gt; Popup tab)</label>\n        <input type=\"checkbox\" title=\"On Timer\" name=\"onTimer\">\n        <input type=\"range\" title=\"Delay (s)\" name=\"onTimerDelay\" min=\"0\" max=\"30\" step=\"1\" value=\"5\" condition=\"onTimer == true\">\n\n        <input type=\"checkbox\" title=\"On Page Exit\" name=\"onPageExit\">\n\n        <input type=\"checkbox\" title=\"On Scroll to End\" name=\"onScroll\">\n\n        <select title=\"Add to Pages:\" name=\"popupOnPages\" multiple condition=\"onTimer == true || onPageExit == true || onScroll == true\"></select>\n\n        <header>Content</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <select title=\"Content Type\" name=\"popupContentType\">\n            <option value=\"1\" selected>None</option>\n            <option value=\"2\">Image</option>\n            <option value=\"3\">Video</option>\n            <option value=\"4\">Form</option>\n        </select>\n\n        <select title=\"Size\" name=\"popupSize\">\n            <option value=\"1\">Small</option>\n            <option value=\"2\" selected>Default</option>\n            <option value=\"3\">Large</option>\n            <option value=\"4\">Extra large</option>\n            <option value=\"5\">Full Screen</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"cardBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Close Button\" name=\"closeButton\" value=\"#353535\">\n\n        <header>Overlay</header>\n        <input type=\"color\" title=\"Color\" name=\"popupOverlayColor\" value=\"#000000\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': popupOverlayColor, 'top': 0, 'right': 0, 'bottom': 0, 'left': 0, 'position': absolute, 'z-index': 0, 'pointer-events': none}\">\n    </div>\n\n    <div class=\"modal mbr-popup\" tabindex=\"-1\" role=\"dialog\" data-overlay-color=\"{{popupOverlayColor}}\" data-overlay-opacity=\"{{overlayOpacity}}\" data-on-timer-delay=\"{{onTimer ? onTimerDelay : ''}}\" data-on-exit=\"{{onPageExit}}\" data-on-scroll=\"{{onScroll}}\">\n        <div class=\"modal-dialog\" role=\"document\" mbr-class=\"{\n            'modal-sm': popupSize == 1,\n            '': popupSize == 2,\n            'modal-lg': popupSize == 3,\n            'modal-xl': popupSize == 4\n            }\">\n            <div class=\"modal-content\">\n                <div class=\"container position-static margin-center-pos\">\n                    <div class=\"modal-header\" mbr-class=\"{'pb-0': showTitle && showText}\">\n                        <h5 class=\"modal-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".modal-title\" mbr-if=\"showTitle\">Esclusioni professionali</h5>\n                        <button type=\"button\" class=\"close d-flex\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\" aria-label=\"Close\">\n                            <svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"23\" height=\"23\" viewBox=\"0 0 23 23\" fill=\"currentColor\">\n                                <path d=\"M13.4 12l10.3 10.3-1.4 1.4L12 13.4 1.7 23.7.3 22.3 10.6 12 .3 1.7 1.7.3 12 10.6 22.3.3l1.4 1.4L13.4 12z\">\n                                </path>\n                            </svg>\n                        </button>\n                    </div>\n\n                    <div class=\"modal-body\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\"><br>Le coperture assicurative sono escluse, e quindi NON operanti nel caso in cui il Set informativo del prodotto da te prescelto preveda espressamente le esclusioni indicate, e il sinistro avvenga durante lo svolgimento di una delle seguenti attività professionali.\n<br>\n<br>Ecco l’elenco di tutte le possibili “esclusioni professionali”.\n<br>\n<br>Addetto al soccorso alpino\n<br>Attività a contatto con correnti elettriche superiori a 380 V\n<br>Attività in alta montagna (es. Guida alpina)\n<br>Attività nel sottosuolo (Es. Speleologo, minatore)\n<br>Attività subacquee (es. Sommozzatore)\n<br>Collaudatore di autoveicoli o motocicli\n<br>Guardia giurata\n<br>Lavoro su tetti ed impalcature &gt; 20 m (es. Muratore, antennista, elettricista su piloni o alta tensione, imbianchino)\n<br>Militare\n<br>Pilota o membro di equipaggio di aerei privati e/o elicotteri\n<br>Pilota professionista\n<br>Skipper\n<br>Vigile del fuoco\n<br>Qualsiasi professione che preveda anche solo potenzialmente l’utilizzo di arma da fuoco</p>\n\n                        <div mbr-if=\"popupContentType !== 1\">\n                            <div class=\"card-img mbr-figure\" mbr-if=\"popupContentType == 2\">\n                                <img src=\"../_images/popup.jpg\" alt=\"Mobirise\">\n                            </div>\n                            <div mbr-video class=\"video-block mbr-figure\" mbr-if=\"popupContentType == 3\">\n                                <iframe src=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\"></iframe>\n                            </div>\n\n                            <div mbr-form mbr-if=\"popupContentType == 4\" class=\"form-wrapper\">\n                                <form action name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                                    <div class=\"container\">\n                                        <div class=\"row\">\n                                            <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">\n                                                Thanks\n                                                for filling out the form!</div>\n                                            <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                                            </div>\n                                        </div>\n                                        <div class=\"row form-content\">\n                                            <div class=\"col-md-4 form-group\" data-for=\"name\" hidden=\"hidden\">\n                                                <input type=\"text\" name=\"name\" placeholder=\"Name\" data-form-field=\"Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" hidden=\"hidden\">\n                                            </div>\n                                            <div class=\"col-md-4 form-group\" data-for=\"lastName\" hidden=\"hidden\">\n                                                <input type=\"text\" name=\"lastName\" placeholder=\"Last Name\" data-form-field=\"Last Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" hidden=\"hidden\">\n                                            </div>\n                                            <div class=\"form-group col\" data-for=\"email\">\n                                                <input type=\"email\" name=\"email\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                                            </div>\n                                            <div class=\"col-md-auto input-group-btn\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\">\n                                                <a type=\"submit\" class=\"btn btn-primary\">SUBSCRIBE</a>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </form>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"modal-footer\" mbr-class=\"{'pt-0': popupContentType == 1 || popupContentType == 4}\" mbr-if=\"showButtons\">\n                        <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"index.html\" data-app-placeholder=\"Type Text\">CHIUDI</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "t3JYIstpFA",
+          "_anchor": "mbr-popup-1d",
+          "_popupId": "mbr-popup-1d",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "mbr-popup-1d",
-          "_popupId": "mbr-popup-1d"
+          "_params": {}
         },
         {
           "alias": "popup-builder",
@@ -3123,11 +3113,11 @@
           "_anchor": "mbr-popup-1e",
           "_isUserblock": true,
           "_cid": "t3K0hWlaQk",
+          "_popupId": "mbr-popup-1e",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_popupId": "mbr-popup-1e"
+          "_params": {}
         },
         {
           "alias": "popup-builder",
@@ -3448,11 +3438,11 @@
           "_anchor": "mbr-popup-1f",
           "_isUserblock": true,
           "_cid": "t3K2i5xuFg",
+          "_popupId": "mbr-popup-1f",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_popupId": "mbr-popup-1f"
+          "_params": {}
         }
       ]
     },
