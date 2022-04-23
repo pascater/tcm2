@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "termini-e-condizioni.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "techm4",
       "title": "TechM4",
@@ -100,7 +100,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Polizza vita assicurazione caso morte decesso capofamiglia",
+        "title": "PolizzaVita.io assicurazione caso morte decesso capofamiglia",
         "meta_descr": "TCM Polizza decesso, assicurazione caso morte, che cos'è ed a cosa serve realmente.\nEcco le vere motivazioni per le quali, chiunque tra i 30 e i 55 anni, dovrebbe avere una polizza vita caso morte, per ripararsi dai rischi del decesso improvviso. ",
         "header_custom": "",
         "footer_custom": "",
