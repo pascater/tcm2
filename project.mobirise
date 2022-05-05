@@ -5754,7 +5754,7 @@
     },
     "blog-polizza-vita-tcm-assicurazioni-caso-morte.html": {
       "settings": {
-        "title": "Blog PolizzaVita.io Articoli utili su assicurazione decesso",
+        "title": "Home Page Blog PolizzaVita.io - Articoli utili su assicurazione decesso",
         "meta_descr": "Articoli informativi blog PolizzaVita.io info su Polizza decesso, assicurazione caso morte, tcm.",
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-954JCXR176\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-954JCXR176');\n</script>",
         "footer_custom": "",
