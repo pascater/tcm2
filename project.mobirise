@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "glossario-argomenti-polizza-vita-caso-morte.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "techm4",
       "title": "TechM4",
@@ -102,7 +102,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "PolizzaVita.io assicurazione caso morte decesso capofamiglia. Polizza vita.",
+        "title": "Polizza Vita .io Assicurazione caso morte decesso capofamiglia.",
         "meta_descr": "TCM, Polizza vita decesso, assicurazione caso morte, che cos'è ed a cosa serve realmente.\nEcco le vere motivazioni per le quali, chiunque tra i 29 e i 59 anni, dovrebbe avere una polizza vita caso morte, per ripararsi dai rischi del decesso improvviso. ",
         "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-954JCXR176\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-954JCXR176');\n</script>",
         "footer_custom": "",
