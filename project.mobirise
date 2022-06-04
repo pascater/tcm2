@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "polizza-mutuo-assicurazione-vita-finanziamento.html",
     "theme": {
       "name": "techm4",
       "title": "TechM4",
@@ -49,7 +49,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 181,
+    "uniqCompNum": 189,
     "versionPublish": "5.6.5",
     "screenshot": "screenshot.png",
     "robotsSwitcher": true,
@@ -6566,7 +6566,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/polizza-vita-caso-morte-copertina-youtube-senape-blucon-freccia-video.png",
-        "order": 10
+        "order": 11
       },
       "components": [
         {
@@ -11294,6 +11294,802 @@
           "_isUserblock": true,
           "_cid": "t67WZRSHWt",
           "_anchor": "footer01-50",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": true,
+          "_params": {}
+        }
+      ]
+    },
+    "polizza-mutuo-assicurazione-vita-finanziamento.html": {
+      "settings": {
+        "title": "Polizza vita per il mutuo",
+        "meta_descr": "Sottoscrivere una polizza vita caso morte per il mutuo: i vantaggi - Blog PolizzaVita.io info su Polizza decesso, assicurazione caso morte, tcm.",
+        "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-954JCXR176\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-954JCXR176');\n</script>",
+        "footer_custom": "",
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/polizza-vita-caso-morte-copertina-youtube-senape-blucon-freccia-video.png",
+        "order": 10
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            ".navbar-dropdown": {
+              "position": "relative!important",
+              "top": "0",
+              "left": "0",
+              "padding": ".5rem 1rem"
+            },
+            ".collapsed": {
+              "flex-direction": "row!important",
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".dropdown-item:before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "16px",
+              "top": "52%",
+              "width": "6px",
+              "height": "6px",
+              "border-radius": "50%",
+              "opacity": "0",
+              "background-color": "#5580ff",
+              "transform": "translateY(-50%)",
+              "transition": "all 0.3s"
+            },
+            ".dropdown-item:hover:before": {
+              "opacity": "1!important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".text-white": {
+              "&:hover, &:active, &:focus": {
+                "color": "white!important"
+              }
+            },
+            ".dropdown-item": {
+              "font-weight": "400!important",
+              "color": "black!important",
+              "&:hover": {
+                "color": "black!important"
+              }
+            },
+            ".dropdown-menu": {
+              "background-color": "white!important"
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "border-radius": "10px",
+              "box-shadow": "0 10px 55px 5px rgba(137, 173, 255, 0.35)",
+              "display": "block"
+            },
+            ".nav-link:before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "10px",
+              "top": "52%",
+              "width": "6px",
+              "height": "6px",
+              "border-radius": "50%",
+              "opacity": "0",
+              "background-color": "#5580ff",
+              "transform": "translateY(-50%)",
+              "transition": "all 0.3s"
+            },
+            ".nav-item": {
+              "&:hover": {
+                ".nav-link:before": {
+                  "opacity": "1!important"
+                }
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".nav-item .nav-link": {
+                "position": "relative"
+              }
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "-webkit-transition": "all 0.25s ease-in-out",
+              "-moz-transition": "all 0.25s ease-in-out",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              "&:hover": {
+                "padding-left": "2rem"
+              },
+              ".mbr-iconfont": {
+                "margin-left": "-1.8rem",
+                "padding-right": "1rem",
+                "font-size": "inherit",
+                "&:before": {
+                  "display": "inline-block",
+                  "-webkit-transform": "scale(1, 1)",
+                  "transform": "scale(1, 1)",
+                  "-webkit-transition": "all 0.25s ease-in-out",
+                  "-moz-transition": "all 0.25s ease-in-out",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".navbar": {
+              "min-height": "77px",
+              "transition": "all .3s",
+              "background": "@menuBgColor",
+              "&.opened": {
+                "transition": "all .3s",
+                "background": "@menuBgColor !important"
+              },
+              ".dropdown-item": {
+                "padding": ".235rem 1.5rem"
+              },
+              ".navbar-collapse": {
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end",
+                "z-index": "1",
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "&.collapsed": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  "background": "transparent !important",
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": ".25rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  "background": "transparent !important",
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": ".25rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3.8rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "-webkit-flex-shrink": "initial",
+                  "flex-shrink": "initial",
+                  "-webkit-flex-basis": "auto",
+                  "flex-basis": "auto",
+                  "word-break": "break-word"
+                },
+                ".navbar-toggler": {
+                  "-webkit-flex-basis": "auto",
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "&.navbar-short": {
+                "background": "@menuBgColor !important",
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-caption": {
+              "font-weight": "600!important"
+            },
+            ".navbar-brand": {
+              "-webkit-flex-shrink": "0",
+              "flex-shrink": "0",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active,.dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            "ul.navbar-nav": {
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "position": "relative",
+              "-webkit-align-self": "center",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".nav-link": {
+              "font-weight": "600!important"
+            },
+            "a.nav-link": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center"
+            },
+            ".mbr-iconfont": {
+              "font-size": "1.5rem",
+              "padding-right": ".5rem"
+            },
+            ".icons-menu": {
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "display": "flex",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "text-align": "center",
+              "span": {
+                "font-size": "26px",
+                "color": "#232323"
+              }
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "77px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~'+' 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "menu02",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"6.2\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#cdcb34\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/polizzavita.logo.svg\" alt=\"Polizza vita temporanea caso morte decesso assicurazione\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\"></a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-info\" href=\"index.html#forms03-8u\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">CHI SIAMO</a><div class=\"dropdown-menu\"></div></li>\n                <li class=\"nav-item dropdown\"><a class=\"nav-link link dropdown-toggle text-info\" href=\"index.html#menu02-a1\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">\n                        POLIZZA VITA</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-info\" href=\"index.html#menu02-a1\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a></div>\n                    <div class=\"dropdown-menu\">\n                        <a class=\"dropdown-item text-info\" href=\"index.html#features01-6n\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Vantaggi</a>\n                        <a class=\"dropdown-item text-info\" href=\"index.html#progress-bars01-62\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Valore</a>\n                        <a class=\"dropdown-item text-info\" href=\"index.html#testimonials04-e\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Testimonianze</a><a class=\"dropdown-item text-info\" href=\"index.html#extContent16-12\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Una storia vera</a><a class=\"dropdown-item text-info\" href=\"index.html#extContent16-12\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Polizza Mutuo</a>\n                    </div>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-info\" href=\"index.html#features05-6m\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">\n                        A CHI SERVE</a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-info\" href=\"index.html#title01-j\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">COME FUNZIONA</a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-info\" href=\"index.html#pricing-tables02-6x\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">ESEMPI</a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-info\" href=\"index.html#accordion01-g\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">F.A.Q.</a></li><li class=\"nav-item\"><a class=\"nav-link link text-info text-primary\" href=\"blog-polizza-vita-tcm-assicurazioni-caso-morte.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\">BLOG</a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                <a href=\"popup:#mbr-popup-d\" data-toggle=\"modal\" data-target=\"#mbr-popup-d\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-search mobi-mbri\" style=\"color: rgb(87, 70, 139); fill: rgb(87, 70, 139);\"></span>\n                </a>\n                <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-search mobi-mbri\" style=\"color: rgb(87, 70, 139); fill: rgb(87, 70, 139);\"></span>\n                </a>\n                <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-globe-2 mobi-mbri\" style=\"color: rgb(242, 246, 255); fill: rgb(242, 246, 255);\"></span>\n                </a>\n                <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-cash mobi-mbri\" style=\"color: rgb(242, 246, 255); fill: rgb(242, 246, 255);\"></span>\n                </a>\n                <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-phone mobi-mbri\" style=\"color: rgb(242, 246, 255); fill: rgb(242, 246, 255);\"></span>\n                </a>\n                <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-alert mobi-mbri\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons px-2 mbr-section-btn\"><a class=\"btn btn-sm btn-primary-outline\" href=\"index.html#forms03-8u\" data-app-placeholder=\"Type Text\">\n                    CONTATTACI</a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "t7MsT1gKeK",
+          "_anchor": "menu02-51",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "H1": {
+              "color": "#716c80"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#716c80"
+            },
+            "H3": {
+              "color": "#716c80"
+            }
+          },
+          "_name": "title02",
+          "_sourceTheme": "techm4",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <select title=\"Align\" name=\"align\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#716c80\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-start\" mbr-class=\"{'justify-content-md-center':align==2, 'justify-content-md-end':align==3}\">\n            <div class=\"mbr-white col-sm-12 col-md-10 col-lg-7\">\n                <h1 class=\"mbr-section-title mbr-regular align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Blog PolizzaVita.io</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\" mbr-class=\"{'pt-3':showTitle}\">Lorem ipsum dolor sit amet, consectetur adipiscing\n                    elit.</h3>\n                <p class=\"mbr-text mbr-light align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-class=\"{'pt-3':showSubTitle || showTitle}\">I nostri migliori consigli per approfondire tutti gli aspetti delle polizze vita caso morte.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-center mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">READ MORE</a>\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">CONTACT US</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t7MsT1WDhJ",
+          "_anchor": "title02-52",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "img": {
+              "height": "100%",
+              "margin": "0 auto",
+              "padding-bottom": "2rem"
+            },
+            "H1": {
+              "color": "#465052",
+              "text-align": "center"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#716c80"
+            },
+            "H3": {
+              "color": "#716c80"
+            },
+            ".mbr-iconfont": {
+              "padding-left": "0.4rem"
+            },
+            ".link": {
+              "display": "flex",
+              "width": "fit-content",
+              "transition": "all 0.3s",
+              "align-items": "center",
+              ".link-ico": {
+                "padding-top": "2px",
+                "transition": "padding 0.3s"
+              },
+              "&:hover": {
+                "color": "@primaryColor !important"
+              },
+              "&:hover .link-ico": {
+                "color": "@primaryColor !important",
+                "padding-left": "10px"
+              }
+            },
+            "DIV": {
+              "color": "#57468b"
+            }
+          },
+          "_name": "content05",
+          "_sourceTheme": "techm4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\" col-md-12 col-lg-10 align-left\">\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-regular pb-2 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-4\">WEB TECHNOLOGY</h3>\n                <h1 class=\"mbr-section-title align-left mbr-white pb-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Acquistare una polizza vita per coprire il rischio di non poter pagare mutuo<br><br></h1>\n\n                <p class=\"mbr-text align-left mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .media-content\"><b>In un Paese come l'Italia è diffusissima la proprietà della casa, vista come garanzia di benessere e di stabilità della famiglia, ed anche come investimento principale e primario.</b><br><br><i><b>Che cos’è l’assicurazione sul mutuo</b></i><br>\n<br>Contrarre un mutuo per poter effettuare l'acquisto dell'abitazione costituisce indubbiamente uno dei passi più importanti e significativi che puoi fare nel corso della tua vita.<br>\n<br>Proprio per questo, l'impegno economico che un mutuo comporta può determinare l'insorgere di una latente condizione di ansia determinata dal timore di non riuscire a onorarne il pagamento a causa di eventuali sopravvenute situazioni di criticità e di incertezza, quali possono essere, ad esempio, la morte del contraente, la perdita del lavoro, l'invalidità permanente, l'inabilità al lavoro.<br>\n<br>Per tale motivo, in molti casi si decide di <a href=\"https://www.afi-esca.it/preventivo/assicurazione-mutuo?ag=cat11223\" class=\"text-primary\" target=\"_blank\">proteggere tale mutuo con un’assicurazione</a> specifica che sia in grado di fornire una copertura adeguata per i rischi descritti che possono mettere a rischio la solvibilità del tuo nucleo familiare.<br>\n<br>Stiamo parlando della&nbsp;CPI (Creditor Protection Insurance), che è appunto una copertura assicurativa che serve a&nbsp;garantire il rimborso del debito residuo nel&nbsp;caso&nbsp;in cui si verifichino situazioni difficili provocate da eventi non prevedibili.<br>\n<br><i><b>È obbligatorio assicurare il mutuo?</b></i><br>\n<br>Allorché si stipula un&nbsp;mutuo&nbsp;viene richiesto sicuramente di sottoscrivere&nbsp;una&nbsp;polizza scoppio e incendio,&nbsp;che copra&nbsp;i&nbsp;danni sull'immobile derivanti da&nbsp;incendio totale o parziale,&nbsp;esplosione di impianti domestici guasti o perdita di gas,&nbsp;scariche di corrente, fulmini, crolli, fughe di fumo, gas e vapori.<br>\n<br>Ma, molto spesso, pur non essendoci un obbligo, le&nbsp;banche&nbsp;richiedono anche la sottoscrizione di altre&nbsp;polizze assicurative&nbsp;che tutelino in caso di decesso del debitore o di sua malattia, inabilità al lavoro, invalidità permanente o temporanea, perdita non volontaria dell’impiego.<br>\n<br>Una Creditor Protection Insurance (CPI), pertanto, protegge nel caso si verifichi uno degli eventi appena indicati e, di conseguenza, serve per tutelare non solo l'ente erogatore, che si vedrà ripagare il debito dalla compagnia assicurativa in caso di insolvenza, ma copre anche il mutuatario&nbsp;e la sua famiglia nel caso in cui non sia più in grado di pagare le rate mensili.<br>\n<br>L’assicurazione può essere sottoscritta da chiunque, fatte salve le esclusioni previste dal contratto, che possono limitare la validità delle garanzie.<br>\n<br>E’ possibile inoltre assicurarsi anche in presenza di patologie pregresse o tutt’ora in corso, a condizione di espletare tutti gli accertamenti clinici e le formalità mediche richieste dalla Compagnia assicuratrice, che si riserverà di attivare il contratto e le conseguenti coperture solo al termine, con esito positivo, di tale iter.<br>\n<br><b><i>Come scegliere l’assicurazione sul mutuo più adatta alle tue esigenze</i></b><br>\n<br>In primo luogo, non sei obbligato a sottoscrivere l’assicurazione del mutuo che ti è proposta dalla banca che eroga il mutuo, dato che dal 3 maggio 2012, il Regolamento 40 ISVAP ha stabilito che coloro che richiedono un finanziamento, entro dieci giorni hanno facoltà di decidere liberamente la propria polizza assicurativa tra quelle presenti sul mercato.<br>\n<br>Tra l'altro, in molti casi le soluzioni alternative offerte direttamente dalle compagnie assicuratrici o dagli <a href=\"https://www.afi-esca.it/preventivo/assicurazione-mutuo?ag=cat11223\" class=\"text-primary\" target=\"_blank\">intermediari specializzati</a> possono risultare più convenienti rispetto a quelle proposte dalla banca, avendo comunque l'accortezza di rispettare le coperture che la banca richiede.<br>\n<br>Infatti, buona parte degli Istituti di credito eroganti propongono polizze standard che prevedono un premio uguale per tutti, che prescinde dalle condizioni soggettive del contraente e che viene determinato in maniera statistica su di un campione di popolazione eterogeneo, di fatto ripartendo l'eventuale maggior rischio individuale tra tutti gli assicurati.<br>\n<br>Al contrario, con una polizza contrattata liberamente sul mercato, in funzione dell'età, del  tuo stato di salute e del tuo stile di vita virtuoso e salutare puoi ottenere  un premio notevolmente più basso rispetto a quello standard di cui in precedenza.<br>\n<br><i><b>Vantaggi dell’assicurazione mutuo</b></i><br>\n<br>In Italia, un mutuo mediamente ha una durata di circa 20-30 anni e riguarda un capitale di 125.000 euro.\n<br>L’impegno economico a cui ci si obbliga è quindi decisamente oneroso e vincolante, in quanto il lungo periodo ti espone alle incertezze e all'instabilità che potrebbe riservare il futuro,  sia in termini di condizioni di salute che di sicurezza del posto di lavoro.<br>\n<br>Pertanto, <a href=\"https://www.afi-esca.it/preventivo/assicurazione-mutuo?ag=cat11223\" class=\"text-primary\" target=\"_blank\">assicurarsi diventa dunque la&nbsp;scelta migliore&nbsp;per proteggere la proprietà </a>dell’immobile ed evitare eventuali pignoramenti da parte della banca in caso di insolvenza.<br>\n<br>Il vantaggio economico principale di questo tipo di polizza è che, configurandosi come  un’assicurazione sulla vita, può essere portata in&nbsp;detrazione fiscale.<br>\n<br>Il limite massimo di spesa che può essere detratto per le assicurazioni vita e infortuni è pari al 19% del premio pagato, nel limite di 530,00 euro annui.<br>\n<br><b><i>Cosa copre l’assicurazione del mutuo</i></b><br><b><i>\n</i></b><br><i>Le garanzie principali di questo tipo di polizza sono:</i><br>\n<br><b>Garanzia Vita</b>: è la garanzia principale su cui si fonda ogni polizza stipulata a copertura del mutuo. L'effetto è il rimborso integrale di tutte le  rate residue del mutuo in caso di premorienza dell’Assicurato, a prescinderne di quale possa esserne la causa (incidente, malattia ecc…).<br>\n<br><b>Garanzia Invalidità Totale e Permanente (ITP)</b>: rimborsa le restanti rate del mutuo in caso di invalidità permanente dell’Assicurato di grado pari o superiore al 60%.<br>\n<br><b>Garanzia di Inabilità Totale e Temporanea (ITT)</b>: copre il pagamento delle rate del mutuo durante un periodo di inabilità temporanea al lavoro da parte dell’Assicurato.<br>\n<br><b>Garanzia di Perdita del Lavoro (PI)</b>: paga le rate del mutuo in caso di perdita involontaria del lavoro da parte dell’assicurato.<br>\n<br><b><i>Quanto costa una polizza mutuo</i></b><br>\n<br>Per quanto riguarda il&nbsp;costo di una&nbsp;polizza CPI, in linea di massima esso può variare dal 2% dell’importo erogato per una semplice&nbsp;protezione vita, fino al 7-8% o più per un pacchetto di protezione completo.<br>\n<br>Come accennato, prescindendo dalle polizze standard uguali per tutti, l’<a href=\"https://www.afi-esca.it/preventivo/assicurazione-mutuo?ag=cat11223\" class=\"text-primary\" target=\"_blank\">assicurazione sul mutuo</a> ha un costo che è variabile in funzione di alcuni fattori come l’età al momento della sottoscrizione, la durata della copertura, il capitale assicurato, le garanzie prescelte, le abitudini di vita (fumatore/non fumatore), etc…<br>\n<br>Pertanto, ogni preventivo è calcolato su misura per ogni cliente e il costo finale viene determinato al momento della sottoscrizione.<br>\n<br>In ogni caso, è bene tenere presente che il premio è maggiore in funzione dei requisiti che abbiamo già descritto e, quindi, in relazione all'età di partenza e di arrivo al termine del contratto, alle condizioni di salute, alle abitudini di vita, al tipo di attività lavorativa (condizioni di rischio).<br>\n<br><b><i>Come può avvenire il pagamento della polizza mutuo<br></i></b><br>Se sottoscrivi la polizza proposta dalla Banca erogante, la&nbsp;modalità più consueta di pagamento della&nbsp;CPI&nbsp; è in soluzione unica&nbsp;e anticipata, mentre se acquisti da una <a href=\"https://www.afi-esca.it/preventivo/assicurazione-mutuo?ag=cat11223\" class=\"text-primary\" target=\"_blank\">Compagnia assicuratrice tramite un intermediario professionista</a>, puoi spalmare il costo anche mensilmente. Per verificare quant'è il costo mensile di una polizza vita mutuo, clicca su questo link!<br><br><b>Ma in sostanza dunque, cos'è la polizza sul mutuo e perché dovresti farne una?</b><br><br>Ci siamo, un grande momento è arrivato. Ti sembra ieri che festeggiavi i tuoi 18 anni con i tuoi compagni di scuola ed invece ora eccoti qui, una persona adulta, con un lavoro, una famiglia, e addirittura in questo momento stai mettendo l’ultima firma per l’acquisto di una casa tutta tua. Incredibile vero?<br> \n<br>Si può affermare con certezza che la stragrande maggioranza delle persone che si ritrovano ad acquistare una casa non hanno fin da subito la liquidità necessaria all’acquisto immediato di un immobile. È per questo che sono nati i mutui.<br>\n<br>Se sei arrivato fino a qui, alla firma che ti permette di accedere ad un mutuo, probabilmente sei già passato attraverso un milione di carte, clausole, scartoffie, firme, e chi più ne ha più ne metta... <br><br>Da far perdere la testa! Ecco, è proprio in contesti come questo che può accadere, a causa della stanchezza dovuta alle lungaggini burocratiche o semplicemente a causa di distrazione o scarsa conoscenza, di non considerare alcuni particolari di fondamentale importanza.<br> \n<br>Per esempio: la rata del mutuo è stata calcolata sulla base dei guadagni del contraente e dell’importo finale da coprire. Ma se ci fosse un incidente o un imprevisto? Come si potrebbe farvi fronte?<br> \n<br>La risposta esiste: è la <a href=\"https://www.afi-esca.it/preventivo/assicurazione-mutuo?ag=cat11223\" class=\"text-primary\" target=\"_blank\">polizza sul mutuo.</a><br> \n<br><i><b>Le  polizze sul mutuo<br></b></i>\n<br>Le polizze sul mutuo sono di due tipi: una è obbligatoria, ed è un’assicurazione che serve a proteggere l’immobile da incendi, esplosioni e fulmini (per questo viene chiamata “polizza incendio e scoppio”).<br><br> Questa polizza protegge sia la banca che l’acquirente e, dal momento che è obbligatoria, viene attivata in maniera automatica alla sottoscrizione del mutuo e viene pagata in concomitanza con la rata dello stesso. \n<br>Il secondo tipo di polizza sul mutuo invece non è obbligatoria ma è un’opzione che può risultare molto utile per proteggere l’investimento fatto. <br><br>Viene anche chiamata “<i><a href=\"https://www.afi-esca.it/preventivo/assicurazione-mutuo?ag=cat11223\" class=\"text-primary\" target=\"_blank\">polizza vita mutu</a>o</i>” ed è uno strumento di prevenzione che entra in sostegno di coloro che devono pagare un mutuo nel momento in cui avviene un incidente o un impedimento che rendono la persona impossibilitata nel pagamento delle rate. Alcuni esempi di incidente o impedimento sono: malattia grave o inabilitante, infortunio grave o infortunio con invalidità permanente, perdita del lavoro o anche morte.<br> \n<br>Per spiegare in modo più chiaro, al verificarsi di uno di questi eventi il contraente non avrebbe più la possibilità di continuare a pagare la rata. La polizza vita mutuo serve esattamente in questi casi poiché, nel momento in cui l’incidente la fa attivare, sarà la compagnia assicurativa a tutelare il contraente e, in pratica, si occuperà di pagare il mutuo residuo. L’importo e la durata del pagamento da parte della compagnia assicurativa dipenderanno dalle circostanze e dalla garanzia prevista dall’assicurazione. <br><br>Per esempio, in caso di perdita dell’impiego o di inabilità temporanea, la compagnia liquida mensilmente l’importo necessario a coprire la rata del mutuo. La durata di questa copertura è variabile. Invece in caso di invalidità permanente o decesso, la compagnia liquiderà l’importo totale necessario ad estinguere il mutuo.<br>\n<br><i><b>Chi può farla e come funziona?<br></b></i>\n<br>Partiamo col dire che la polizza sul mutuo può essere sottoscritta da chiunque rispetti una serie di requisiti base abbastanza semplici. Parlando naturalmente dell’Italia, i requisiti necessari per poter accedere alla polizza vita mutuo sono elencati qui di seguito:<br> \n<br><i>Avere la residenza in Italia\n<br>Avere, al momento della sottoscrizione, un’età che sia compresa tra 18 ed i 70 anni.\n<br>Avere acceso un mutuo o un finanziamento, il cui contratto sia in lingua italiana ed il cui Ente Erogante sia situato sul territorio italiano\n<br>La valuta di suddetto contratto deve essere l’Euro</i><br><i>\n</i><br>Tuttavia è bene aggiungere che certe compagnie assicurative potrebbero chiedere al contraente di sottoporsi ad alcuni esami preliminari, che servono a stabilire il premio e le eventuali franchigie. <br><br>È abbastanza logico che una persona che fa un lavoro in cui è esposto ad alto rischio, probabilmente potrebbe dover pagare una franchigia più alta rispetto ad una persona che lavora in un ambiente a basso rischio. <br><br>Allo stesso modo le abitudini di vita del contraente ed il suo stato di salute influiranno sul costo della polizza: un fumatore è più esposto a rischio che un non fumatore, così come chi fa sport estremi e quindi si trova spesso in situazioni di potenziale pericolo. <br><br>Anche per quel che riguarda persone che hanno patologie pregresse potrebbero essere richiesti degli accertamenti medici e, in alcuni casi, queste patologie potrebbero comportare l’esclusione del contraente dalla possibilità di sottoscrivere una polizza sul mutuo. <br><br>Per avere le idee più chiare su questo punto è necessario dedicarsi ad un’attenta lettura delle Condizioni Generali di Assicurazione, dove è sempre spiegato quali sono i rischi esclusi dal contratto.\n<br>\n<br><i><b>Quali sono i costi per una polizza vita mutuo?<br></b></i>\n<br>La teoria è molto interessante, ma bisogna anche cercare di essere concreti. Allora, se decidiamo di sottoscrivere una polizza sul mutuo, di che tipo di costi stiamo parlando? È probabile che già immaginiate la risposta: dipende. <br><br>Infatti le condizioni e variabili che possono influenzare il costo finale sono tante: per cominciare l’età della persona che vuole assicurarsi: ovviamente con l’avanzare degli anni aumenta il rischio per la compagnia assicurativa e ne consegue che aumenta il premio. <br><br>Inoltre anche altri fattori possono determinare un alzarsi od un abbassarsi del costo del contratto: lo stile di vita dell’assicurato, le garanzie previste, la durata totale del contratto, il capitale assicurato.\n<br>Se è quindi vero che ogni polizza deve avere un preventivo a sé, che viene calcolato ad personam per ogni cliente, è anche vero che ci sono dei massimali da tenere in conto, che sono sempre espressi nel contratto. <br><br>È importante verificare che i massimali del nostro contratto siano coerenti rispetto alla nostra esposizione finanziaria.<br><br>In ogni caso, per farsi un’idea indicativa, è importante dire che l’<a href=\"https://www.afi-esca.it/preventivo/assicurazione-mutuo?ag=cat11223\" class=\"text-primary\" target=\"_blank\">assicurazione del mutuo</a> può avere un peso percentuale che va dal 2% fino ad un massimo del 7% rispetto all’importo totale del finanziamento (parliamo quindi in media del 5% sull’importo totale del mutuo). \n<br>\n<br><b><i>È obbligatorio sottoscrivere l’assicurazione sul mutuo con lo stesso Ente Erogante del mutuo?<br></i></b>\n<br>Questa domanda è di fondamentale, e la risposta è: <b>NO</b>, non è obbligatorio sottoscrivere la polizza sul mutuo con lo stesso Ente che ci ha concesso il mutuo. <br><br>Perché questo aspetto è così importante? Perché non è difficile cadere in una piccola trappola: la banca che ci concede il finanziamento avrà tutto l’interesse di venderci una polizza a protezione dello stesso: sia perché la polizza rappresenterebbe una ulteriore fonte di guadagno per la banca stessa, ma anche perché la sottoscrizione di questa polizza rappresenterebbe una tutela, dal momento che l’importo del finanziamento sarebbe protetto dall’assicurazione. <br><br>In altre parole, se anche il contraente del mutuo si trovasse in condizione di non poterlo più sostenere, la banca dal lato suo sarebbe protetta. <br><br>Tuttavia come visto sopra non è obbligatorio rivolgersi all’Ente Erogatore del mutuo anche per la polizza vita mutuo. È quindi possibile (nonché fortemente consigliato) fare un’indagine di mercato in modo da stabilire quale sia l’opzione più conveniente tra le varie proposte presenti. L’unico requisito obbligatorio in questo caso è, ovviamente, quello di rispettare le coperture richieste dalla banca. \n<br>\n<br>Per concludere ci teniamo a fare un’ulteriore piccola precisazione che però è di fondamentale importanza: nel caso in cui il mutuo venga estinto anticipatamente, la compagnia assicurativa sarà tenuta a rimborsare le prestazioni del premio assicurativo che non sono state godute.&nbsp;<br></p>\n            </div>\n\n\n\n        </div>\n    </div>\n</section>",
+          "_cid": "t7MsT2tt2V",
+          "_anchor": "content05-53",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "H1": {
+              "color": "#213eaf"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#716c80"
+            },
+            "H3": {
+              "color": "#716c80"
+            }
+          },
+          "_name": "title02",
+          "_sourceTheme": "techm4",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <select title=\"Align\" name=\"align\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#716c80\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-start\" mbr-class=\"{'justify-content-md-center':align==2, 'justify-content-md-end':align==3}\">\n            <div class=\"mbr-white col-sm-12 col-md-10 col-lg-7\">\n                <h1 class=\"mbr-section-title mbr-regular align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Calcola il costo della tua polizza vita caso morte a copertura del mutuo&nbsp;</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\" mbr-class=\"{'pt-3':showTitle}\">Con tariffa agevolata e limitata</h3>\n                <p class=\"mbr-text mbr-light align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-class=\"{'pt-3':showSubTitle || showTitle}\">\n                    Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie euismod. Facilisis at vero eros et accumsan et iusto.</p>\n                <div mbr-buttons mbr-theme-style=\"display-5\" class=\"align-center mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://www.afi-esca.it/preventivo/assicurazione-mutuo?ag=cat11223\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbrib-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>FAI IL TUO PREVENTIVO ORA</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "t7MsT2SZFc",
+          "_anchor": "title02-54",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "section": {
+              "position": "relative"
+            },
+            ".container": {
+              "max-width": "1400px"
+            },
+            ".card-img2 span": {
+              "padding-top": "6px"
+            },
+            ".soc-item a": {
+              "padding-top": "5px"
+            },
+            ".btn": {
+              "padding": "0.4rem 0.6rem",
+              "margin": "0.5rem!important",
+              "border-radius": "10px!important",
+              "letter-spacing": "0px",
+              ".mbr-iconfont": {
+                "margin-top": "0.1rem"
+              }
+            },
+            ".content": {
+              "@media (max-width: 992px)": {
+                "> div:not(:last-child)": {
+                  "margin-bottom": "2rem"
+                }
+              }
+            },
+            ".quote": {
+              "background-color": "rgba(0, 0, 0, 0.1)",
+              "border-radius": "10px",
+              "padding": "1rem",
+              "position": "relative",
+              "margin-bottom": "1.8rem",
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".quote::after": {
+              "top": "100%",
+              "left": "36px",
+              "content": "\" \"",
+              "position": "absolute",
+              "width": "0",
+              "height": "0",
+              "border-style": "solid",
+              "border-width": "20px 20px 0 0",
+              "border-color": "rgba(0, 0, 0, 0.1) transparent transparent"
+            },
+            ".card-img2": {
+              "width": "45px",
+              "height": "45px",
+              "background": "@ico2",
+              "border-radius": "100%",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center"
+            },
+            ".soc-item": {
+              "width": "45px",
+              "height": "45px",
+              "background": "@ico1",
+              "margin-bottom": "1rem",
+              "border-radius": "100%",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "margin-right": "1rem",
+              "span": {
+                "font-size": "1.4rem"
+              },
+              "&:hover": {
+                "span": {
+                  "color": "@primaryColor !important"
+                }
+              }
+            },
+            ".item": {
+              "display": "flex",
+              "align-items": "center",
+              "margin-bottom": "1rem",
+              "h4": {
+                "padding-left": "10px",
+                "margin": "0"
+              }
+            },
+            ".media-wrap": {
+              "margin-bottom": "1rem"
+            },
+            ".mbr-iconfont-logo": {
+              "font-size": "7.5rem",
+              "color": "#f36"
+            },
+            "img": {
+              "height": "4rem"
+            },
+            "@media (max-width: 576px)": {
+              ".item": {
+                "justify-content": "center"
+              },
+              ".quote::after": {
+                "left": "60px"
+              }
+            },
+            ".social-list": {
+              "padding-left": "0",
+              "margin-bottom": "0",
+              "list-style": "none",
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "@media (max-width: 576px)": {
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              }
+            },
+            ".text1": {
+              "color": "#ffffff"
+            },
+            ".item-title": {
+              "color": "#ffffff"
+            },
+            "H5": {
+              "color": "#cdcb34"
+            },
+            ".theme": {
+              "color": "#ffffff"
+            },
+            ".copyright > p": {
+              "color": "#ff3366"
+            },
+            ".text2": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "footer03",
+          "_sourceTheme": "techm4",
+          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"color\" title=\"Soc Icon BG Color\" name=\"ico1\" value=\"#ffffff\" selected=\"\">\n        <input type=\"color\" title=\"Quote Icon BG Color\" name=\"ico2\" value=\"#216eaf\" selected=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected=\"\">4</option>\n        </select>\n        <select title=\"Items\" name=\"itemsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected=\"\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#879a9f\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n    <div class=\"container\">\n        <div class=\"media-container-row content text-white\">\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <div class=\"media-wrap align-left\" mbr-if=\"showLogo\">\n                    \n                        <img src=\"@PROJECT_PATH@/assets/images/polizzavita.io-logo.svg\" alt=\"Mobirise\" title=\"\">\n                    \n                </div>\n\n                <p class=\"mbr-text align-left text1 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text1\">É&nbsp;un marchio Xure.it di Pasquale Caterisano <br>Via Pietro Valsecchi, 2 - 22033 Asso (CO)<br>RUI A000055288&nbsp; P. IVA&nbsp;04012380137<br>PEC: pasquale.caterisano@pec.it&nbsp;<br></p>\n\n                <div class=\"social-list align-left\" mbr-if=\"iconsCount > 0\">\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                        <a href=\"https://twitter.com/AssiDigital\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"color: rgb(205, 203, 52); fill: rgb(205, 203, 52);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                        <a href=\"https://www.facebook.com/WebMarketingAssicurativo/\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\" style=\"color: rgb(205, 203, 52); fill: rgb(205, 203, 52);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                        <a href=\"https://www.youtube.com/c/PasqualeCaterisano/\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\" style=\"color: rgb(205, 203, 52); fill: rgb(205, 203, 52);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                        <a href=\"https://www.linkedin.com/in/caterisano/\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-linkedin socicon\" style=\"color: rgb(205, 203, 52); fill: rgb(205, 203, 52);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                        <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-googleplus socicon\" style=\"color: rgb(87, 70, 139); fill: rgb(87, 70, 139);\"></span>\n                        </a>\n                    </div>\n\n                </div>\n\n\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                <h5 class=\"pb-3 align-left\"><b>Informazioni di contatto e ufficio di rappresentanza</b></h5>\n\n\n                <div class=\"item\" mbr-if=\"itemsCount > 0\">\n                    <div class=\"card-img\"><span mbr-icon=\"\" class=\"mbr-iconfont img1 mobi-mbri-map-pin mobi-mbri\"></span>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"item-title align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title\"><b>Via Uberto Visconti di Modrone, 6</b></h4>\n                    </div>\n                </div>\n\n                <div class=\"item\" mbr-if=\"itemsCount > 1\">\n                    <div class=\"card-img\"><span mbr-icon=\"\" class=\"mbr-iconfont img1 mobi-mbri-pin mobi-mbri\"></span></div>\n                    <div class=\"card-box\">\n                        <h4 class=\"item-title align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title\"><b>20122 Milano</b></h4>\n                    </div>\n                </div>\n\n                <div class=\"item\" mbr-if=\"itemsCount > 2\">\n                    <div class=\"card-img\"><span mbr-icon=\"\" class=\"mbr-iconfont img1 mobi-mbri-letter mobi-mbri\"></span>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"item-title align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title\"><a href=\"mailto:info@polizzavita.io\" class=\"text-secondary text-primary\">info@polizzavita.io</a></h4>\n                    </div>\n                </div>\n\n                <div class=\"item\" mbr-if=\"itemsCount > 3\">\n                    <div class=\"card-img\"><span mbr-icon=\"\" class=\"mbr-iconfont img1 mobi-mbri-phone mobi-mbri\"></span>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"item-title align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title\"><a href=\"tel:+393382234395\" class=\"text-secondary\">+39 338 - 22 34 395</a></h4>\n                    </div>\n                </div>\n\n                <div class=\"item\" mbr-if=\"itemsCount > 4\">\n                    <div class=\"card-img\"><span mbr-icon=\"\" class=\"mbr-iconfont img1 mobi-mbri-phone mobi-mbri\"></span>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"item-title align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title\">+1 (0) 000 0000 001</h4>\n                    </div>\n                </div>\n\n\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n\n                <p class=\"mbr-text quote align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".quote\"><i>In collaborazione con:</i><br>Afi Esca S.A. Rappresentanza Generale per l’Italia - Via Vittor Pisani, 5 - 20124 Milano (MI)&nbsp;Tel: +39 02 5832 4845&nbsp;<i><br></i></p>\n\n                <div class=\"item\">\n                    <div class=\"card-img2\"><span mbr-icon=\"\" class=\"mbr-iconfont ico2 mbrib-lock\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); font-size: 24px;\"></span></div>\n                    <div class=\"card-box\">\n                        <h4 class=\"theme align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".theme\"><i>Autorizzata all'esercizio delle assicurazioni con iscrizione nell'Elenco I annesso all'Albo delle imprese di assicurazione e riassicurazione al n. I.00105</i></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                <h5 class=\"pb-3 align-left\"><a href=\"https://crea-assicurazioni.com/it/Home/Privacy\" target=\"_blank\" class=\"text-primary\"><b>Privacy e Cookie Policy</b></a></h5>\n                <p class=\"mbr-text align-left text2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text2\">\n                    <a href=\"assets/files/Allegati-3-4-4ter-xure.it-Pasquale-Caterisano.pdf\" class=\"text-info text-primary\" target=\"_blank\">Allegato 3 ,&nbsp;&nbsp;Allegato 4,&nbsp; Allegato 4Ter</a><br><a href=\"https://www.afi-esca.it/pdf/Set_Vitruvio.pdf\" class=\"text-info text-primary\" target=\"_blank\">Set informativo</a><br><a href=\"https://www.afi-esca.it/pdf/Set_Vitruvio.pdf\" class=\"text-info text-primary\" target=\"_blank\">Condizioni di polizza</a><br><a href=\"reclami.html\" class=\"text-info\" target=\"_blank\">Reclami</a><br></p>\n\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-danger\" href=\"https://www.ivass.it/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-protect mbr-iconfont mbr-iconfont-btn\"></span>Attività di intermediazione assicurativa soggetta al controllo ed alla vigilanza di IVASS</a></div>\n\n            </div>\n        </div>\n\n\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "t7MsT38eo8",
+          "_anchor": "footer03-55",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<div class=\"wrapper\">\n  <div class=\"h_iframe\">\n    <!-- a transparent image is preferable -->\n    <img class=\"ratio\" src=\"https://caterisano.quoteandbuy.it/Prodotto/TCM\">\n    <iframe frameborder=\"0\" height=\"auto\" width=\"auto\" scrolling=\"no\" src=\"https://caterisano.quoteandbuy.it/Prodotto/TCM\" allowfullscreen=\"\"></iframe>\n  </div>\n</div>",
+          "_customCSS": ".wrapper {\n  width: 100%;\n  height: 100%;\n  margin: 0 auto;\n  background: #ffffff;\n}\n\n.h_iframe {\n  position: relative;\n}\n\n.h_iframe .ratio {\n  display: block;\n  width: 100%;\n  height: auto;\n}\n\n.h_iframe iframe {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "techm4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-56"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "img": {
+              "height": "100%",
+              "margin": "0 auto",
+              "padding-bottom": "2rem"
+            },
+            "H1": {
+              "color": "#57468b"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#716c80"
+            },
+            "H3": {
+              "color": "#716c80"
+            },
+            ".mbr-iconfont": {
+              "padding-left": "0.4rem"
+            },
+            ".link": {
+              "display": "flex",
+              "width": "fit-content",
+              "transition": "all 0.3s",
+              "align-items": "center",
+              ".link-ico": {
+                "padding-top": "2px",
+                "transition": "padding 0.3s"
+              },
+              "&:hover": {
+                "color": "@primaryColor !important"
+              },
+              "&:hover .link-ico": {
+                "color": "@primaryColor !important",
+                "padding-left": "10px"
+              }
+            },
+            "DIV": {
+              "color": "#57468b"
+            }
+          },
+          "_name": "content07",
+          "_sourceTheme": "techm4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\" col-md-12 col-lg-12 align-left\">\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-regular pb-2 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-4\">WEB TECHNOLOGY</h3>\n                <h1 class=\"mbr-section-title align-left mbr-white pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Solutions For Your Business</h1>\n            </div>\n            <div class=\" col-md-12 col-lg-6 align-left\">\n                <p class=\"mbr-text align-left mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .media-content\"><a href=\"informativa-vendita-a-distanza.html\" class=\"text-danger\" target=\"_blank\">NORMATIVA LEGALE OBBLIGATORIA PER VENDITA A DISTANZA</a><br><br>Allegati IVASS:<a href=\"assets/files/Allegati-3-4-4ter-xure.it-Pasquale-Caterisano.pdf\" class=\"text-primary\" target=\"_blank\"> Allegato n° 3 - Allegato n° 4 - Allegato n° 4 Ter</a>.&nbsp; Il contratto di assicurazione che sta acquistando, è definito ai sensi del D. Lgs. 190/05 contratto a distanza ovvero \"contratto che viene concluso tra Consumatore e fornitore [AFI-ESCA] impiegando una o più tecniche di comunicazione a distanza fino alla conclusione del contratto, compresa la conclusione del contratto stesso\". Ai sensi dell'art. 67-quater del D. Lgs. 206/05 (Codice del Consumo) La informiamo che: Consumatore è qualsiasi persona fisica che agisce per fini che non rientrano nel quadro della propria attività imprenditoriale o professionale.&nbsp;</p>\n            </div>\n\n            <div class=\" col-md-12 col-lg-6 align-left\">\n                <p class=\"mbr-text align-left mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .media-content\">Il contratto di assicurazione proposto è regolato dalle condizioni di polizza che deve necessariamente visualizzare: <a href=\"https://www.afi-esca.it/pdf/Set_Vitruvio.pdf\" class=\"text-primary\" target=\"_blank\">Condizioni di polizza</a> - <a href=\"reclami.html\" class=\"text-primary\" target=\"_blank\">Reclami</a> - <a href=\"https://www.iubenda.com/private/privacy-policy/2203132/legal\" class=\"text-primary\" target=\"_blank\">Privacy</a>. Ai sensi dell'art. 67-duodecies comma 5b, il recesso non si applica alle polizze assicurative di durata inferiore ad un mese. Cliccando sui pulsanti di preventivazione polizza vita temporanea caso morte in questo sito, dichiaro di aver preso visione del <a href=\"https://www.afi-esca.it/pdf/Set_Vitruvio.pdf\" target=\"_blank\" class=\"text-primary\"><i>Set Informativo</i></a>, di acconsentire all'acquisto a distanza del contratto assicurativo, di prestare il consenso per il trattamento dei miei dati per finalità di gestione del contratto. Dichiaro altresì che la polizza corrisponde alle mie aspettative, sulla base delle indicazioni fornite. Intermediario: Pasquale Caterisano RUI A000055288 &nbsp;- PEC: pasquale.caterisano@pec.it&nbsp;</p>\n            </div>\n\n\n\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "t7MsT3P1D2",
+          "_anchor": "content07-57",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer01",
+          "_sourceTheme": "techm4",
+          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#b1a374\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\"><b>Copyright&nbsp;© 2023 PolizzaVita.io - <a href=\"termini-e-condizioni.html\" class=\"text-info\" target=\"_blank\">Termini e condizioni</a> - All Rights Reserved.</b><br><br>This site is not a part of Facebook or Google websites.&nbsp; Additionally, this site is NOT endorsed by Facebook or Google in any way.&nbsp; Facebook is a trademark of Meta Platforms, Inc.&nbsp; Google is a trademark of Alphabet Inc.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "t7MsT48Zjx",
+          "_anchor": "footer01-58",
           "_protectedParams": [],
           "_global": true,
           "_once": true,
