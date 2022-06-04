@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "blog-polizza-vita-tcm-assicurazioni-caso-morte.html",
+    "currentPage": "tipologie-polizza-vita-caso-morte-copertura-decesso.html",
     "theme": {
       "name": "techm4",
       "title": "TechM4",
@@ -49,7 +49,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 189,
+    "uniqCompNum": 197,
     "versionPublish": "5.6.5",
     "screenshot": "screenshot.png",
     "robotsSwitcher": true,
@@ -6198,7 +6198,7 @@
         {
           "_name": "list3",
           "_sourceTheme": "snackm5",
-          "_customHTML": "<section class=\"list3\" group=\"List\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"itemsCount\" title=\"Items Count\" min=\"1\" max=\"10\" value=\"10\" step=\"1\">\n        <input type=\"checkbox\" title=\"Line\" name=\"showLine\">\n        <input type=\"color\" title=\"Color\" name=\"lineColor\" value=\"#b1a374\" condition=\"showLine\">\n        <input type=\"range\" name=\"lineWidth\" title=\"Width\" min=\"1\" max=\"5\" value=\"3\" step=\"1\" condition=\"showLine\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/snackm5/components/_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"counter-container col-md-12 col-lg-{{textWidth}}\">\n                <h4 class=\"mbr-section-title mbr-fonts-style\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>Articoli recenti</b><br><b><br></b></h4>\n                <div class=\"list\">\n                    <div class=\"list-item\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\"><b>01</b></p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Una storia vera. Sarebbe bello poterti dire che questa è una storia inventata per impietosirti o per incuterti timore al fine di farti acquistare la polizza della quale stiamo parlando.</b><br><b><br></b>Invece purtroppo non è così; questa che ti sto per raccontare è una storia vera, ma sfortunatamente è anche una storia che quasi tutti i miei colleghi assicuratori ti possono raccontare, magari con sfumature, luoghi e condizioni diverse, ma tutte hanno lo stesso comune denominatore: ovvero il rammarico da parte di uno dei coniugi a non aver potuto o voluto contrarre una polizza vita prima che una tragico evento si sia verificato. <a href=\"https://polizzavita.io/index.html#extContent16-12\" class=\"text-primary\" target=\"_blank\"><b>Continua a leggere...</b></a><br><br>\n                        </p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 1\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>02</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Ecco perchè devi contrarre subito una polizza vita caso morte per il rischio decesso.</b><br><br>Di seguito le vere motivazioni per le quali, chiunque tra i 29 e i 59 anni, dovrebbe avere una polizza vita caso morte, per ripararsi dai rischi del decesso improvviso. Sono Pasquale Caterisano, sono un assicuratore da più di 30 anni e in questo video ti parlo della polizza vita caso morte, la polizza che copre il decesso e che è la polizza base che tutti dovrebbero avere. <a href=\"contrarre-subito-polizza-vita-caso-morte-rischio-decesso.html\" class=\"text-primary\" target=\"_blank\"><b>Continua a leggere...</b></a><a href=\"contrarre-subito-polizza-vita-caso-morte-rischio-decesso.html\" class=\"text-primary\" target=\"_blank\"><b><br></b></a><br></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 2\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>03</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Se va bene ok, e se va male?</b><br><br>La stragrande maggioranza degli italiani dai 30 ai 60 anni con figli non ha una polizza sulla vita.<br>Eppure sono nel pieno della loro attività lavorativa, di crescita dei figli (istruzione, attività, vacanze) e degli acquisti fondamentali (casa, auto ecc.) per una famiglia.<br>E se all’improvviso succedesse qualcosa di tragico che non gli permetterebbe più di effettuare queste attività quotidiane?&nbsp; <a href=\"Se-va-bene-ok-se-va-male-polizza-vita-caso-morte.html\" class=\"text-primary\" target=\"_blank\"><b>Continua a leggere...</b></a><br><a href=\"Se-va-bene-ok-se-va-male-polizza-vita-caso-morte.html\" class=\"text-primary\" target=\"_blank\"><b><br></b></a></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 3\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>04</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>5 buoni motivi per sottoscrivere una polizza vita caso morte.<br></b><br>Ogni compagnia di assicurazioni è in grado di fornirti una copertura integrale contro qualsiasi rischio in cui potresti imbatterti, dalla RCA auto obbligatoria alla miriade di polizze e micro-polizze riguardanti, infortuni, abitazione, furto, etc. In questo quadro, in cui l'insicurezza gioca un ruolo determinante, spesso ti trovi a stipulare più contratti che, cumulati, ti vengono a costare un importo annuo consistente.&nbsp; <br><a href=\"5-buoni-motivi-per-sottoscrivere-una-polizza-vita-caso-morte.html\" class=\"text-primary\" target=\"_blank\">Continua a leggere...</a><a href=\"5-buoni-motivi-per-sottoscrivere-una-polizza-vita-caso-morte.html\" class=\"text-primary\" target=\"_blank\"><br></a><br></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 4\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>05</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Contrarre una polizza vita temporanea caso morte è un modo giusto di prendersi cura delle persone che amiamo.\n</b><br>\n<br>Ormai è cosa nota: i tempi in cui viviamo sono caratterizzati da una grande incertezza, soprattutto per quel che riguarda il lato economico. I prezzi si continuano ad alzare su ogni fronte, il lavoro scarseggia, gli stipendi non si adeguano all’innalzamento delle tariffe, le tasse aumentano a dismisura ed intanto le possibilità contrattuali di ciascuno di noi diminuiscono drasticamente.&nbsp;<a href=\"tcm-caso-morte-prendersi-cura-delle-persone-che-amiamo.html\" class=\"text-primary\" target=\"_blank\"><b>Continua a leggere...</b></a><br><a href=\"tcm-caso-morte-prendersi-cura-delle-persone-che-amiamo.html\" class=\"text-primary\" target=\"_blank\"><b><br></b></a><br></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 5\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>06</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Perchè sottoscrivere una polizza vita caso morte per i dirigenti e manager d'azienda: i vantaggi.</b><br><br>Il mercato delle assicurazioni è un campo ampio e variegato: i prodotti disponibili sono molto numerosi e spesso presentano differenti opzioni che hanno la funzione di personalizzare la polizza in modo da renderla il più possibile adatta a sposare le esigenze di tutti i contraenti. Parlando di assicurazioni sulla vita, si sta affermando un’opzione sempre più popolare: stiamo parlando della polizza vita in caso di morte. Questa risulta diventare una scelta molto conveniente per diversi motivi.&nbsp; <b><a href=\"sottoscrivere-polizza-vita-caso-morte-dirigenti-manager-azienda-vantaggi.html\" class=\"text-primary\" target=\"_blank\"><b>Continua a leggere...</b></a><br></b></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 6\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>07</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>\n                            Polizza vita per il mutuo</b><br><br>In un Paese come l'Italia è diffusissima la proprietà della casa, vista come garanzia di benessere e di stabilità della famiglia, ed anche come investimento principale e primario. Che cos’è l’assicurazione sul mutuo? Contrarre un mutuo per poter effettuare l'acquisto dell'abitazione costituisce indubbiamente uno dei passi più importanti e significativi che puoi fare nel corso della tua vita.&nbsp;<b> <a href=\"polizza-mutuo-assicurazione-vita-finanziamento.html\" class=\"text-primary\" target=\"_blank\"><b>Continua a leggere...</b></a></b><br></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 7\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>08</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut\n                            labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum\n                            velit. Sit amet tellus cras adipiscing enim eu. Et netus et malesuada fames ac turpis\n                            egestas integer. Tempor orci eu lobortis elementum. Lectus mauris ultrices eros in cursus\n                            turpis massa tincidunt.\n                        </p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 8\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>09</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut\n                            labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum\n                            velit. Sit amet tellus cras adipiscing enim eu. Et netus et malesuada fames ac turpis\n                            egestas integer. Tempor orci eu lobortis elementum. Lectus mauris ultrices eros in cursus\n                            turpis massa tincidunt.\n                        </p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 9\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>10</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut\n                            labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum\n                            velit. Sit amet tellus cras adipiscing enim eu. Et netus et malesuada fames ac turpis\n                            egestas integer. Tempor orci eu lobortis elementum. Lectus mauris ultrices eros in cursus\n                            turpis massa tincidunt.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"list3\" group=\"List\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"itemsCount\" title=\"Items Count\" min=\"1\" max=\"10\" value=\"10\" step=\"1\">\n        <input type=\"checkbox\" title=\"Line\" name=\"showLine\">\n        <input type=\"color\" title=\"Color\" name=\"lineColor\" value=\"#b1a374\" condition=\"showLine\">\n        <input type=\"range\" name=\"lineWidth\" title=\"Width\" min=\"1\" max=\"5\" value=\"3\" step=\"1\" condition=\"showLine\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/snackm5/components/_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"counter-container col-md-12 col-lg-{{textWidth}}\">\n                <h4 class=\"mbr-section-title mbr-fonts-style\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>Articoli recenti</b><br><b><br></b></h4>\n                <div class=\"list\">\n                    <div class=\"list-item\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\"><b>01</b></p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Una storia vera. Sarebbe bello poterti dire che questa è una storia inventata per impietosirti o per incuterti timore al fine di farti acquistare la polizza della quale stiamo parlando.</b><br><b><br></b>Invece purtroppo non è così; questa che ti sto per raccontare è una storia vera, ma sfortunatamente è anche una storia che quasi tutti i miei colleghi assicuratori ti possono raccontare, magari con sfumature, luoghi e condizioni diverse, ma tutte hanno lo stesso comune denominatore: ovvero il rammarico da parte di uno dei coniugi a non aver potuto o voluto contrarre una polizza vita prima che una tragico evento si sia verificato. <a href=\"https://polizzavita.io/index.html#extContent16-12\" class=\"text-primary\" target=\"_blank\"><b>Continua a leggere...</b></a><br><br>\n                        </p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 1\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>02</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Ecco perchè devi contrarre subito una polizza vita caso morte per il rischio decesso.</b><br><br>Di seguito le vere motivazioni per le quali, chiunque tra i 29 e i 59 anni, dovrebbe avere una polizza vita caso morte, per ripararsi dai rischi del decesso improvviso. Sono Pasquale Caterisano, sono un assicuratore da più di 30 anni e in questo video ti parlo della polizza vita caso morte, la polizza che copre il decesso e che è la polizza base che tutti dovrebbero avere. <a href=\"contrarre-subito-polizza-vita-caso-morte-rischio-decesso.html\" class=\"text-primary\" target=\"_blank\"><b>Continua a leggere...</b></a><a href=\"contrarre-subito-polizza-vita-caso-morte-rischio-decesso.html\" class=\"text-primary\" target=\"_blank\"><b><br></b></a><br></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 2\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>03</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Se va bene ok, e se va male?</b><br><br>La stragrande maggioranza degli italiani dai 30 ai 60 anni con figli non ha una polizza sulla vita.<br>Eppure sono nel pieno della loro attività lavorativa, di crescita dei figli (istruzione, attività, vacanze) e degli acquisti fondamentali (casa, auto ecc.) per una famiglia.<br>E se all’improvviso succedesse qualcosa di tragico che non gli permetterebbe più di effettuare queste attività quotidiane?&nbsp; <a href=\"Se-va-bene-ok-se-va-male-polizza-vita-caso-morte.html\" class=\"text-primary\" target=\"_blank\"><b>Continua a leggere...</b></a><br><a href=\"Se-va-bene-ok-se-va-male-polizza-vita-caso-morte.html\" class=\"text-primary\" target=\"_blank\"><b><br></b></a></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 3\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>04</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>5 buoni motivi per sottoscrivere una polizza vita caso morte.<br></b><br>Ogni compagnia di assicurazioni è in grado di fornirti una copertura integrale contro qualsiasi rischio in cui potresti imbatterti, dalla RCA auto obbligatoria alla miriade di polizze e micro-polizze riguardanti, infortuni, abitazione, furto, etc. In questo quadro, in cui l'insicurezza gioca un ruolo determinante, spesso ti trovi a stipulare più contratti che, cumulati, ti vengono a costare un importo annuo consistente.&nbsp; <br><a href=\"5-buoni-motivi-per-sottoscrivere-una-polizza-vita-caso-morte.html\" class=\"text-primary\" target=\"_blank\">Continua a leggere...</a><a href=\"5-buoni-motivi-per-sottoscrivere-una-polizza-vita-caso-morte.html\" class=\"text-primary\" target=\"_blank\"><br></a><br></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 4\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>05</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Contrarre una polizza vita temporanea caso morte è un modo giusto di prendersi cura delle persone che amiamo.\n</b><br>\n<br>Ormai è cosa nota: i tempi in cui viviamo sono caratterizzati da una grande incertezza, soprattutto per quel che riguarda il lato economico. I prezzi si continuano ad alzare su ogni fronte, il lavoro scarseggia, gli stipendi non si adeguano all’innalzamento delle tariffe, le tasse aumentano a dismisura ed intanto le possibilità contrattuali di ciascuno di noi diminuiscono drasticamente.&nbsp;<a href=\"tcm-caso-morte-prendersi-cura-delle-persone-che-amiamo.html\" class=\"text-primary\" target=\"_blank\"><b>Continua a leggere...</b></a><br><a href=\"tcm-caso-morte-prendersi-cura-delle-persone-che-amiamo.html\" class=\"text-primary\" target=\"_blank\"><b><br></b></a><br></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 5\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>06</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Perchè sottoscrivere una polizza vita caso morte per i dirigenti e manager d'azienda: i vantaggi.</b><br><br>Il mercato delle assicurazioni è un campo ampio e variegato: i prodotti disponibili sono molto numerosi e spesso presentano differenti opzioni che hanno la funzione di personalizzare la polizza in modo da renderla il più possibile adatta a sposare le esigenze di tutti i contraenti. Parlando di assicurazioni sulla vita, si sta affermando un’opzione sempre più popolare: stiamo parlando della polizza vita in caso di morte. Questa risulta diventare una scelta molto conveniente per diversi motivi.&nbsp; <b><a href=\"sottoscrivere-polizza-vita-caso-morte-dirigenti-manager-azienda-vantaggi.html\" class=\"text-primary\" target=\"_blank\"><b>Continua a leggere...</b></a><br></b></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 6\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>07</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>\n                            Polizza vita per il mutuo e garanzia perdita del lavoro</b><br><br>In un Paese come l'Italia è diffusissima la proprietà della casa, vista come garanzia di benessere e di stabilità della famiglia, ed anche come investimento principale e primario. Che cos’è l’assicurazione sul mutuo? Contrarre un mutuo per poter effettuare l'acquisto dell'abitazione costituisce indubbiamente uno dei passi più importanti e significativi che puoi fare nel corso della tua vita.&nbsp;<b> <a href=\"polizza-mutuo-assicurazione-vita-finanziamento.html\" class=\"text-primary\" target=\"_blank\"><b>Continua a leggere...</b></a></b><br></p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 7\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>08</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut\n                            labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum\n                            velit. Sit amet tellus cras adipiscing enim eu. Et netus et malesuada fames ac turpis\n                            egestas integer. Tempor orci eu lobortis elementum. Lectus mauris ultrices eros in cursus\n                            turpis massa tincidunt.\n                        </p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 8\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>09</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut\n                            labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum\n                            velit. Sit amet tellus cras adipiscing enim eu. Et netus et malesuada fames ac turpis\n                            egestas integer. Tempor orci eu lobortis elementum. Lectus mauris ultrices eros in cursus\n                            turpis massa tincidunt.\n                        </p>\n                    </div>\n                    <div class=\"list-item\" mbr-if=\"itemsCount > 9\">\n                        <p class=\"mbr-number mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-number\">\n                            <b>10</b>\n                        </p>\n                        <div class=\"line\"></div>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut\n                            labore et dolore magna aliqua. Aliquam sem fringilla ut morbi tincidunt augue interdum\n                            velit. Sit amet tellus cras adipiscing enim eu. Et netus et malesuada fames ac turpis\n                            egestas integer. Tempor orci eu lobortis elementum. Lectus mauris ultrices eros in cursus\n                            turpis massa tincidunt.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
@@ -6566,7 +6566,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/polizza-vita-caso-morte-copertina-youtube-senape-blucon-freccia-video.png",
-        "order": 11
+        "order": 12
       },
       "components": [
         {
@@ -12094,6 +12094,802 @@
           "_global": true,
           "_once": true,
           "_params": {}
+        }
+      ]
+    },
+    "tipologie-polizza-vita-caso-morte-copertura-decesso.html": {
+      "settings": {
+        "title": "Tipologie di polizza vita caso morte a copertura del decesso",
+        "meta_descr": "Ecco quali sono le tipologie di polizza vita caso morte a copertura del decesso- Blog PolizzaVita.io info su Polizza decesso, assicurazione caso morte, tcm.",
+        "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-954JCXR176\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-954JCXR176');\n</script>",
+        "footer_custom": "",
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/polizza-vita-caso-morte-copertina-youtube-senape-blucon-freccia-video.png",
+        "order": 11
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            ".navbar-dropdown": {
+              "position": "relative!important",
+              "top": "0",
+              "left": "0",
+              "padding": ".5rem 1rem"
+            },
+            ".collapsed": {
+              "flex-direction": "row!important",
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".dropdown-item:before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "16px",
+              "top": "52%",
+              "width": "6px",
+              "height": "6px",
+              "border-radius": "50%",
+              "opacity": "0",
+              "background-color": "#5580ff",
+              "transform": "translateY(-50%)",
+              "transition": "all 0.3s"
+            },
+            ".dropdown-item:hover:before": {
+              "opacity": "1!important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".text-white": {
+              "&:hover, &:active, &:focus": {
+                "color": "white!important"
+              }
+            },
+            ".dropdown-item": {
+              "font-weight": "400!important",
+              "color": "black!important",
+              "&:hover": {
+                "color": "black!important"
+              }
+            },
+            ".dropdown-menu": {
+              "background-color": "white!important"
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "border-radius": "10px",
+              "box-shadow": "0 10px 55px 5px rgba(137, 173, 255, 0.35)",
+              "display": "block"
+            },
+            ".nav-link:before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "10px",
+              "top": "52%",
+              "width": "6px",
+              "height": "6px",
+              "border-radius": "50%",
+              "opacity": "0",
+              "background-color": "#5580ff",
+              "transform": "translateY(-50%)",
+              "transition": "all 0.3s"
+            },
+            ".nav-item": {
+              "&:hover": {
+                ".nav-link:before": {
+                  "opacity": "1!important"
+                }
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".nav-item .nav-link": {
+                "position": "relative"
+              }
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "-webkit-transition": "all 0.25s ease-in-out",
+              "-moz-transition": "all 0.25s ease-in-out",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              "&:hover": {
+                "padding-left": "2rem"
+              },
+              ".mbr-iconfont": {
+                "margin-left": "-1.8rem",
+                "padding-right": "1rem",
+                "font-size": "inherit",
+                "&:before": {
+                  "display": "inline-block",
+                  "-webkit-transform": "scale(1, 1)",
+                  "transform": "scale(1, 1)",
+                  "-webkit-transition": "all 0.25s ease-in-out",
+                  "-moz-transition": "all 0.25s ease-in-out",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".navbar": {
+              "min-height": "77px",
+              "transition": "all .3s",
+              "background": "@menuBgColor",
+              "&.opened": {
+                "transition": "all .3s",
+                "background": "@menuBgColor !important"
+              },
+              ".dropdown-item": {
+                "padding": ".235rem 1.5rem"
+              },
+              ".navbar-collapse": {
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end",
+                "z-index": "1",
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "&.collapsed": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  "background": "transparent !important",
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": ".25rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  "background": "transparent !important",
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": ".25rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3.8rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "-webkit-flex-shrink": "initial",
+                  "flex-shrink": "initial",
+                  "-webkit-flex-basis": "auto",
+                  "flex-basis": "auto",
+                  "word-break": "break-word"
+                },
+                ".navbar-toggler": {
+                  "-webkit-flex-basis": "auto",
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "&.navbar-short": {
+                "background": "@menuBgColor !important",
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-caption": {
+              "font-weight": "600!important"
+            },
+            ".navbar-brand": {
+              "-webkit-flex-shrink": "0",
+              "flex-shrink": "0",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active,.dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            "ul.navbar-nav": {
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "position": "relative",
+              "-webkit-align-self": "center",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".nav-link": {
+              "font-weight": "600!important"
+            },
+            "a.nav-link": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center"
+            },
+            ".mbr-iconfont": {
+              "font-size": "1.5rem",
+              "padding-right": ".5rem"
+            },
+            ".icons-menu": {
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "display": "flex",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "text-align": "center",
+              "span": {
+                "font-size": "26px",
+                "color": "#232323"
+              }
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "77px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~'+' 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "menu02",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"6.2\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#cdcb34\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/polizzavita.logo.svg\" alt=\"Polizza vita temporanea caso morte decesso assicurazione\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\"></a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-info\" href=\"index.html#forms03-8u\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">CHI SIAMO</a><div class=\"dropdown-menu\"></div></li>\n                <li class=\"nav-item dropdown\"><a class=\"nav-link link dropdown-toggle text-info\" href=\"index.html#menu02-a1\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">\n                        POLIZZA VITA</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-info\" href=\"index.html#menu02-a1\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a></div>\n                    <div class=\"dropdown-menu\">\n                        <a class=\"dropdown-item text-info\" href=\"index.html#features01-6n\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Vantaggi</a>\n                        <a class=\"dropdown-item text-info\" href=\"index.html#progress-bars01-62\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Valore</a>\n                        <a class=\"dropdown-item text-info\" href=\"index.html#testimonials04-e\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Testimonianze</a><a class=\"dropdown-item text-info\" href=\"index.html#extContent16-12\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Una storia vera</a><a class=\"dropdown-item text-info\" href=\"index.html#extContent16-12\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Polizza Mutuo</a>\n                    </div>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-info\" href=\"index.html#features05-6m\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">\n                        A CHI SERVE</a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-info\" href=\"index.html#title01-j\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">COME FUNZIONA</a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-info\" href=\"index.html#pricing-tables02-6x\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">ESEMPI</a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-info\" href=\"index.html#accordion01-g\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">F.A.Q.</a></li><li class=\"nav-item\"><a class=\"nav-link link text-info text-primary\" href=\"blog-polizza-vita-tcm-assicurazioni-caso-morte.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" target=\"_blank\">BLOG</a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                <a href=\"popup:#mbr-popup-d\" data-toggle=\"modal\" data-target=\"#mbr-popup-d\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-search mobi-mbri\" style=\"color: rgb(87, 70, 139); fill: rgb(87, 70, 139);\"></span>\n                </a>\n                <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-search mobi-mbri\" style=\"color: rgb(87, 70, 139); fill: rgb(87, 70, 139);\"></span>\n                </a>\n                <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-globe-2 mobi-mbri\" style=\"color: rgb(242, 246, 255); fill: rgb(242, 246, 255);\"></span>\n                </a>\n                <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-cash mobi-mbri\" style=\"color: rgb(242, 246, 255); fill: rgb(242, 246, 255);\"></span>\n                </a>\n                <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-phone mobi-mbri\" style=\"color: rgb(242, 246, 255); fill: rgb(242, 246, 255);\"></span>\n                </a>\n                <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                    <span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-alert mobi-mbri\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons px-2 mbr-section-btn\"><a class=\"btn btn-sm btn-primary-outline\" href=\"index.html#forms03-8u\" data-app-placeholder=\"Type Text\">\n                    CONTATTACI</a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "t7MH4BpnVn",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu02-59"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "H1": {
+              "color": "#716c80"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#716c80"
+            },
+            "H3": {
+              "color": "#716c80"
+            }
+          },
+          "_name": "title02",
+          "_sourceTheme": "techm4",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <select title=\"Align\" name=\"align\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#716c80\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-start\" mbr-class=\"{'justify-content-md-center':align==2, 'justify-content-md-end':align==3}\">\n            <div class=\"mbr-white col-sm-12 col-md-10 col-lg-7\">\n                <h1 class=\"mbr-section-title mbr-regular align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Blog PolizzaVita.io</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\" mbr-class=\"{'pt-3':showTitle}\">Lorem ipsum dolor sit amet, consectetur adipiscing\n                    elit.</h3>\n                <p class=\"mbr-text mbr-light align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-class=\"{'pt-3':showSubTitle || showTitle}\">I nostri migliori consigli per approfondire tutti gli aspetti delle polizze vita caso morte.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-center mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">READ MORE</a>\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">CONTACT US</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t7MH4C1JHC",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "title02-5a"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "img": {
+              "height": "100%",
+              "margin": "0 auto",
+              "padding-bottom": "2rem"
+            },
+            "H1": {
+              "color": "#465052",
+              "text-align": "center"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#716c80"
+            },
+            "H3": {
+              "color": "#716c80"
+            },
+            ".mbr-iconfont": {
+              "padding-left": "0.4rem"
+            },
+            ".link": {
+              "display": "flex",
+              "width": "fit-content",
+              "transition": "all 0.3s",
+              "align-items": "center",
+              ".link-ico": {
+                "padding-top": "2px",
+                "transition": "padding 0.3s"
+              },
+              "&:hover": {
+                "color": "@primaryColor !important"
+              },
+              "&:hover .link-ico": {
+                "color": "@primaryColor !important",
+                "padding-left": "10px"
+              }
+            },
+            "DIV": {
+              "color": "#57468b"
+            }
+          },
+          "_name": "content05",
+          "_sourceTheme": "techm4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\" col-md-12 col-lg-10 align-left\">\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-regular pb-2 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-4\">WEB TECHNOLOGY</h3>\n                <h1 class=\"mbr-section-title align-left mbr-white pb-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Le tipologie di polizze vita temporanea caso morte che devi subito conoscere<br><br></h1>\n\n                <p class=\"mbr-text align-left mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .media-content\"><br><b>Iniziamo facendo gli scongiuri: il tema di oggi è abbastanza delicato, si tratta infatti delle polizze assicurative sulla vita in caso<i> </i>di morte. </b><br><br><i>Naturalmente ognuno di noi preferisce pensare a queste eventualità come fatti lontani da sé, ci sentiamo immuni e non pensiamo che una cosa del genere (ovvero la morte improvvisa o imprevista) potrà mai riguardarci.<br></i>\n<br>Eppure, purtroppo, non è così. <br><br>Gli incidenti capitano e dal momento che sono più frequenti di quel che si creda, la cosa più saggia e strategica che possiamo fare è quella di tutelarci in anticipo.<br>\n<br>Anche gli investitori sono d’accordo: prima di considerare qualunque tipo di investimento è bene pensare al passo precedente, ovvero la prevenzione. In altre parole, l’assicurazione, che permette la tutela del proprio patrimonio.<br>\n<br>In questo articolo verranno illustrate le principali tipologie di polizze sulla vita in caso di morte ed i modi in cui è possibile scegliere quella che fa al caso nostro.\n<br>\n<br><b><i>COME SCEGLIERE LA MIGLIORE ASSICURAZIONE VITA CONTRO IL DECESSO?</i></b><br>\n<br>Questa è la prima delle difficoltà che si incontrano quando si iniziano a fare riflessioni riguardo a una polizza di questo tipo. Con l’avanzare dell’era digitale infatti, le tipologie di assicurazioni sulla vita stanno aumentando, così come gli enti che le propongono: non si parla più solo di compagnie assicurative tradizionali, ma anche di banche, poste, cooperative, o ancora compagnie assicurative digitali. <br><br>Come orientarsi quindi in mezzo a tutte queste diverse opzioni?<br>\n<br>Affidarsi ad un <a href=\"index.html#mbr-popup-d\" class=\"text-primary\" target=\"_blank\">consulente con più di 30 anni di esperienza</a> potrebbe essere una buona idea.<br>\n<br>Sembra una banalità ma a volte non lo è. In un processo delicato come quello della scelta della polizze sulla vita in caso di morte, la decisione più saggia è quella di affidarsi ad un professionista anche cercato e trovato online, a patto che sia autorizzato ad operare a termini di legge ed iscritto al registro degli assicuratori tenuto dall'Ivass presso banca d'Italia. <br><br>Questa ultima figura sarà in grado di consigliarci al meglio, ponendoci le domande specifiche riguardanti la nostra situazione in particolare. Solo in questo modo ci potrà indirizzare verso l’opzione che più si adatta a noi.<br>\n<br>Bisogna però fare molta attenzione anche nella scelta del consulente stesso. Se non si ha uno specialista assicurativo di fiducia, a volte si corre il rischio di incappare in delle figure che, più che consulenti, sono venditori e che quindi desiderano a tutti i costi vendere una assicurazione vita contro il decesso, anche laddove questa non sia una buona opzione per il cliente. <br><br>Fatevi quindi consigliare da qualcuno il migliore consulente assicurativo o, se non avete conoscenze nel campo, cercate di affidarvi al vostro intuito e di porre molte domande per capire il tipo di persona che avete davanti. Nel nostro caso, <a href=\"index.html#forms03-8u\" class=\"text-primary\" target=\"_blank\">puoi vedere chi siamo cliccando quì</a>.<br>\n<br>Scegliere un gruppo assicurativo solido Anche in questa circostanza, nel caso in cui non abbiate già una compagnia di assicurazioni di riferimento, è di fondamentale importanza sceglierne una che sia solida ed affidabile. La nostra, Afi-Esca, è un gruppo francese presente in Italia da decenni con un indice di solidità molto superiore alla media.<br><br>Per valutare la forza di un gruppo assicurativo il primo indicatore da tenere in conto è il cosiddetto rating aziendale: se questo indice è alto, significa che l’azienda è solvibile (in parole povere: paga i premi), e che quindi dispone di liquidità.<br>\n<br>Un altro importante fattore di cui bisogna tenere conto sono i tempi di liquidazione. Sarebbe a dire: nel momento in cui si dovesse verificare il decesso della persona assicurata, entro quanto tempo il premio stabilito a livello contrattuale viene liquidato? Questo aspetto sfortunatamente viene spesso trascurato e la cosa può comportare grandi disagi in seguito.<br>\n<br>La polizza vita temporanea caso morte (TCM) è una tra i contratti assicurativi sulla vita più stipulati. Le assicurazioni vita caso morte sono ideate per proteggere i familiari di un assicurato che rappresenta il principale, se non unico, sostegno economico per l’intera famiglia. Vengono sottoscritte anche da famiglie che hanno sulle spalle un finanziamento importante, come ad esempio un mutuo o che hanno richiesto dei prestiti. <br><br>Nel tragico caso in cui venga a mancare la principale fonte di reddito, è possibile evitare che i pesanti debiti o le restanti rate ricadano sul resto della famiglia che si verrebbe a trovare senza alcun tipo di supporto economico. In questo articolo, cercheremo di capire le varie tipologie di polizze vita temporanea caso morte e in che cosa consiste nel dettaglio questa assicurazione. <br><br>Cosa si intende per assicurazione vita temporanea caso morte Facciamo subito chiarezza sui soggetti coinvolti in un’assicurazione: troviamo un contraente, ovvero la persona che firma il contratto e che paga il premio all’agenzia assicurativa. Il capitale assicurato verrà poi consegnato a un beneficiario nel caso in cui un evento ben precisato nel contratto avvenga all’assicurato. <br><br>In alcuni casi il contraente potrà anche essere lo stesso assicurato. L’assicurazione vita temporanea caso morte è una tipologia di polizza compresa all’interno delle più generali assicurazioni sulla vita in caso di morte, ovvero quelle polizze che garantiscono un sostegno economico qualora dovesse verificarsi il decesso dell’assicurato. <br><br>A eccezione della polizza vita caso morte vita intera, il contratto temporaneo impone all’ente assicurativo di erogare il capitale al beneficiario solamente nel caso in cui l’assicurato sia deceduto mentre il contratto era attivo a tutti gli effetti. Per questo motivo è infatti una polizza “temporanea”, essendoci una data di fine contratto e quindi di attività dell'assicurazione. <br><br>La polizza vita caso morte vita intera invece permette l'erogazione del capitale sempre alla morte dell’assicurato a prescindere da quando avvenga il decesso. Chiaramente tra queste due polizze l’importo del capitale che viene assicurato è molto diverso. <br><br>Dettagli polizza vita temporanea caso morte Vediamo alcuni dettagli e particolarità di questa tipologia di polizza. Il pagamento del premio da parte del contraente può essere unico o ripetitivo, spesso risulta infatti avere cadenza annuale, semestrale o in alcuni casi mensile. Il capitale che verrà consegnato al beneficiario in caso di decesso dell’assicurato potrà essere costante o potrà decrescere con il passare del tempo, tutto dipende dalla soluzione assicurativa scelta. <br><br>La polizza TCM, come suggerisce il nome, ha appunto validità temporanea; il periodo in cui è attiva viene determinato dettagliatamente nel contratto. Come detto, per essere valida e per poter erogare il capitale al beneficiario, il decesso dovrà avvenire nel periodo di attività del contratto. Se alla fine della validità della polizza vita temporanea caso morte non fosse, fortunatamente, avvenuto nessun tragico imprevisto, il premio non verrà riconsegnato al contraente. <br><br>Questo risulta spesso un punto a sfavore riguardo le TCM e viene considerato un’ingente perdita economica. Ma la stipulazione di un contratto di questo genere permette una tranquillità e una serenità notevoli per l’intero nucleo familiare e per l’assicurato, specialmente nei momenti più instabili. L'obiettivo ultimo è chiaramente quello di proteggere la famiglia da un punto di vista economico, nel tragico caso in cui il principale sostegno venga a mancare. <br><br><b>Fattori per stipulare una polizza vita temporanea caso morte</b><br><b> <br></b>Il premio, il costo quindi della polizza, viene determinato dall’azienda assicurativa dopo un’attenta analisi preliminare di alcuni fattori. I fattori che vengono presi in considerazione sono: <br><br>- <i>l’età dell’assicurato</i>. Chiaramente più aumenta e più aumenterà il costo della polizza; - lo stato di salute generale e varie malattie pregresse; - lo stile di vita dell'assicurato. Verrà infatti valutato il suo lavoro, se sia rischioso o meno, se pratica sport pericolosi, se fuma, se viaggia tanto. Tutte quelle attività che possono essere considerate rischiose verranno prese in considerazione; <br><br>- <i>la durata del contratto.</i> Più è esteso e più il prezzo tenderà ad aumentare; - il capitale che verrà consegnato al beneficiario. Viene infatti deciso l’importo finale che risulta essere necessario per permettere alla famiglia di mantenere il suo stile di vita e per non creare altri turbamenti. Per esempio il proseguimento del percorso di studi dei figli sarà preso in considerazione. Un capitale finale elevato farà chiaramente aumentare il premio da pagare; <br><br>- <i>coperture extra all’interno del contratto</i>. Questo fattore è molto importante per la stipulazione di un’assicurazione di questo genere. Esistono infatti varie coperture extra, chiaramente facoltative e complementari, che possono essere inserite all’interno della polizza. Possono essere aggiunte quindi garanzie per l’invalidità totale e permanente e infortuni. Più coperture vengono aggiunte all’interno del contratto e più il costo aumenterà. <br><br><b>Garanzie complementari facoltative all’interno della polizza TCM <br></b><br>Come detto, ci sono alcune coperture extra che possono essere inserite all’interno del contratto assicurativo. Se uno di questi casi dovesse sopraggiungere, ad esempio l’invalidità totale e permanente o dovesse insorgere una malattia grave, il capitale verrà normalmente consegnato direttamente all’assicurato, con modalità differenti in base al tipo di contratto stipulato. Inoltre, nei casi d’invalidità il contraente potrà essere esonerato dal pagamento del premio. La clausola di esonero del pagamento dei premi, potrà essere inserita all’interno del contratto e potrà attivarsi automaticamente o a scelta. <br><br>Esiste un’altra garanzia complementare facoltativa che può essere inserita all’interno della polizza assicurativa TCM ed è la clausola relativa al decesso causato da infortunio. In alcuni casi, per esempio se il decesso dovesse sopraggiungere dopo un incidente in auto e quindi di un grave infortunio, il beneficiario può ottenere un capitale maggiore. <br><br>Troviamo un’altra garanzia extra che può essere inserita all’interno di una polizza TCM: Long Term Care. Questa tipologia di assicurazione permette di coprire tutte le spese che possono derivare quando si risulta impossibilitati a muoversi autonomamente e a svolgere azioni quotidiane senza aiuti. Attività quali alzarsi, vestirsi, lavarsi, mangiare e più in generale muoversi in completa autonomia. <br><br>Questo stato può derivare sia da malattie sopraggiunte nel tempo, ma anche da infortuni o dal semplice processo di invecchiamento. Specialmente per quest'ultimo caso, una polizza di questo genere risulta essere molto utilizzata. Può rappresentare un aiuto economico fondamentale per gli anziani che non sono più autosufficienti e che necessitano di aiuti e cure specifiche, sia a casa che in strutture dedicate. Esistono anche delle coperture complementari che garantiscono una percentuale del capitale a una coppia che sottoscrive una polizza di questo genere. <br><br>In caso uno dei due partner dovesse ricevere la diagnosi di tumore all’apparato riproduttivo, questa garanzia aggiuntiva è ideata per anticipare una parte del capitale totale. Il grande vantaggio risiede nel fatto che la garanzia è valida anche se è prevista un’alta probabilità di guarire. <br><br><b>Vantaggi fiscali polizza TCM.<br></b><br> Firmare una polizza TCM garantisce anche alcuni vantaggi fiscali, i quali risultano molto importanti e convenienti. Infatti, è bene sapere che l’assicurazione vita temporanea caso morte è detraibile fiscalmente. È possibile infatti detrarre fino al 19% del premio che viene pagato all’assicurazione, sino ad arrivare a un massimo di 530 euro. Vantaggio fiscale davvero interessante per chi decidesse di acquistare una polizza TCM. <br><br>Non è solo la detrazione fiscale a rappresentare un grosso incentivo, ma è molto importante ricordare anche che il capitale che verrebbe consegnato al beneficiario non può essere né pignorato né sequestrato. Oltre a questo, tutto il denaro consegnato non potrà subire nessun tipo di tasse di successione, le quali in molti casi possono essere alquanto costose. <br><br>Essendoci al giorno d’oggi molta insicurezza e precarietà da un punto di vista economico e incertezza per quanto riguarda il futuro e quello che succederà, non è una sorpresa che sempre più persone decidano di stipulare delle polizze vita caso morte. <br><br>Oltretutto abbiamo visto che questo genere di assicurazioni non copre solamente i decessi ma possono allargarsi a molti più aspetti di una vita: malattie, infortuni, invalidità e invecchiamento. Se sei interessato a saperne di più e valutare la tua situazione, clicca qui e saremo felici di darti una mano.\n<br>\n<br><b><i>LE TIPOLOGIE DI POLIZZE SULLA VITA IN CASO DI MORTE<br></i></b>\n<br>Una volta scelta la compagnia assicurativa alla quale ci vogliamo affidare e trovato un consulente che ci ispira fiducia, il passo immediatamente successivo è quello di capire quale assicurazione vita contro il decesso fa al caso nostro. Come è stato detto in precedenza, le opzioni sono davvero molto numerose, ma possiamo dividere le polizze sulla vita in caso di morte in tre tipologie principali.<br>\n<br><b>Temporanea Caso Morte (anche conosciuta come TCM)<br></b>\n<br>Stiamo parlando della polizza sulla vita in caso di morte più diffusa e nota. Questa assicurazione permette di salvaguardare la propria famiglia o i propri cari in caso di decesso del contraente. È un tipo di contratto che viene fortemente raccomandato in quei nuclei famigliari in cui uno dei redditi è il principale o l’unico. Infatti se questo reddito dovesse venire a mancare, i superstiti si troverebbero a dover affrontare dei gravi problemi economici.<br>\n<br>Il contraente, che quasi sempre coincide con l’assicurato, versa un premio mensile o annuale. L’ammontare del premio non è fisso ma varia a seconda di alcuni fattori, come per esempio l’età, lo stato di salute e lo stile di vita della persona assicurata.<br>\n<br>Al verificarsi dell’episodio assicurato (cioè il decesso della persona assicurata) la polizza va ad attivarsi. Ne consegue che le persone che la compagnia assicurativa sarà tenuta a liquidare il premio, mentre le persone che sono state designate come beneficiari riceveranno il capitale concordato nel contratto. Tuttavia, se il decesso dell’assicurato non dovesse avvenire entro i tempi previsti dalla polizza (si tratta di un periodo che può andare dai 5 ai 30 anni), la compagnia tratterrà la totalità dei premi versati.<br>\n<br><i>Se questa polizza vi sembra interessante, è perché lo è: abbiamo spiegato i <a href=\"5-buoni-motivi-per-sottoscrivere-una-polizza-vita-caso-morte.html\" class=\"text-primary\" target=\"_blank\">5 buoni motivi per sottoscriverla in questo articolo.</a>\n<br></i>\n<br><b>Polizza Vita Mista<br></b>\n<br>La polizza mista è una assicurazione vita contro il decesso che prevede una copertura nel caso in cui lungo la durata del contratto si verifichi la morte della persona assicurata ma che, a differenza della Temporanea Caso Morte, prevede un rimborso parziale del capitale speso nel caso in cui il decesso dell’assicurato non dovesse avvenire nei tempi stabiliti all’interno del contratto.<br>\n<br>Per spiegare meglio, in questa polizza sono presenti due componenti diverse: da una parte si trova la quota che si versa come forma “di risparmio”, dall’altro lato invece una parte di questa stessa quota che viene destinata al capitale che verrà liquidato in caso di morte dell’assicurato. È una polizza che a volte viene preferita alla TCM in quanto quest’ultima è considerata “a fondo perduto”.<br>\n<br><b>Polizza decesso per infortunio<br></b>\n<br>Questo prodotto è una polizza sulla vita in caso di morte che ha la funzione di tutelare i beneficiari della stessa in caso di morte per infortunio del beneficiario. Gli infortuni possono essere di vario tipo, ma molto spesso in questo genere di polizze si parla degli infortuni legati all’ambito professionale, ovvero agli incidenti sul lavoro. Non serve che vi spieghiamo quanto frequenti siano eventi di questo tipo; appare dunque evidente la ragione per cui questa opzione può essere molto importante soprattutto per coloro che lavorano in settori particolarmente esposti al rischio.<br>\n<br>Ma come funziona questa polizza? Il decesso viene considerato conseguente all’infortunio anche se non avviene immediatamente dopo l’incidente, ma deve essere rapportabile allo stesso, sia da un punto di vista temporale (il decesso deve avvenire entro due anni dall’infortunio) , che da un punto di vista causa - effetto. <br><br>È interessante considerare anche che questo contratto rimane valido anche laddove l’incidente sia causato dalla persona assicurata, e che il premio viene erogato in seguito al decesso, entro appunto il limite di due anni, anche nei casi in cui nel frattempo la polizza sia scaduta.<br>\n<br>Naturalmente come sempre le opzioni di ogni assicurazione vita contro il decesso sono numerose e personalizzabili da molti punti di vista. <br><br>Dunque a conti fatti non esiste una polizza sulla vita in caso di morte migliore di un’altra, esiste solo l’opzione migliore per te e per la tua famiglia<br><br></p>\n            </div>\n\n\n\n        </div>\n    </div>\n</section>",
+          "_cid": "t7MH4CqYjo",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content05-5b"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "H1": {
+              "color": "#213eaf"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#716c80"
+            },
+            "H3": {
+              "color": "#716c80"
+            }
+          },
+          "_name": "title02",
+          "_sourceTheme": "techm4",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <select title=\"Align\" name=\"align\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#716c80\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-start\" mbr-class=\"{'justify-content-md-center':align==2, 'justify-content-md-end':align==3}\">\n            <div class=\"mbr-white col-sm-12 col-md-10 col-lg-7\">\n                <h1 class=\"mbr-section-title mbr-regular align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Calcola il premio della tua polizza vita caso morte</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\" mbr-class=\"{'pt-3':showTitle}\">Con tariffa agevolata e limitata</h3>\n                <p class=\"mbr-text mbr-light align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-class=\"{'pt-3':showSubTitle || showTitle}\">\n                    Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie euismod. Facilisis at vero eros et accumsan et iusto.</p>\n                <div mbr-buttons mbr-theme-style=\"display-5\" class=\"align-center mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://www.afi-esca.it/preventivo/assicurazione-mutuo?ag=cat11223\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbrib-cursor-click mbr-iconfont mbr-iconfont-btn\"></span>FAI IL TUO PREVENTIVO ORA</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "t7MH4CZHIw",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "title02-5c"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "section": {
+              "position": "relative"
+            },
+            ".container": {
+              "max-width": "1400px"
+            },
+            ".card-img2 span": {
+              "padding-top": "6px"
+            },
+            ".soc-item a": {
+              "padding-top": "5px"
+            },
+            ".btn": {
+              "padding": "0.4rem 0.6rem",
+              "margin": "0.5rem!important",
+              "border-radius": "10px!important",
+              "letter-spacing": "0px",
+              ".mbr-iconfont": {
+                "margin-top": "0.1rem"
+              }
+            },
+            ".content": {
+              "@media (max-width: 992px)": {
+                "> div:not(:last-child)": {
+                  "margin-bottom": "2rem"
+                }
+              }
+            },
+            ".quote": {
+              "background-color": "rgba(0, 0, 0, 0.1)",
+              "border-radius": "10px",
+              "padding": "1rem",
+              "position": "relative",
+              "margin-bottom": "1.8rem",
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".quote::after": {
+              "top": "100%",
+              "left": "36px",
+              "content": "\" \"",
+              "position": "absolute",
+              "width": "0",
+              "height": "0",
+              "border-style": "solid",
+              "border-width": "20px 20px 0 0",
+              "border-color": "rgba(0, 0, 0, 0.1) transparent transparent"
+            },
+            ".card-img2": {
+              "width": "45px",
+              "height": "45px",
+              "background": "@ico2",
+              "border-radius": "100%",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center"
+            },
+            ".soc-item": {
+              "width": "45px",
+              "height": "45px",
+              "background": "@ico1",
+              "margin-bottom": "1rem",
+              "border-radius": "100%",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "margin-right": "1rem",
+              "span": {
+                "font-size": "1.4rem"
+              },
+              "&:hover": {
+                "span": {
+                  "color": "@primaryColor !important"
+                }
+              }
+            },
+            ".item": {
+              "display": "flex",
+              "align-items": "center",
+              "margin-bottom": "1rem",
+              "h4": {
+                "padding-left": "10px",
+                "margin": "0"
+              }
+            },
+            ".media-wrap": {
+              "margin-bottom": "1rem"
+            },
+            ".mbr-iconfont-logo": {
+              "font-size": "7.5rem",
+              "color": "#f36"
+            },
+            "img": {
+              "height": "4rem"
+            },
+            "@media (max-width: 576px)": {
+              ".item": {
+                "justify-content": "center"
+              },
+              ".quote::after": {
+                "left": "60px"
+              }
+            },
+            ".social-list": {
+              "padding-left": "0",
+              "margin-bottom": "0",
+              "list-style": "none",
+              "display": "flex",
+              "flex-wrap": "wrap",
+              "@media (max-width: 576px)": {
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              }
+            },
+            ".text1": {
+              "color": "#ffffff"
+            },
+            ".item-title": {
+              "color": "#ffffff"
+            },
+            "H5": {
+              "color": "#cdcb34"
+            },
+            ".theme": {
+              "color": "#ffffff"
+            },
+            ".copyright > p": {
+              "color": "#ff3366"
+            },
+            ".text2": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "footer03",
+          "_sourceTheme": "techm4",
+          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"color\" title=\"Soc Icon BG Color\" name=\"ico1\" value=\"#ffffff\" selected=\"\">\n        <input type=\"color\" title=\"Quote Icon BG Color\" name=\"ico2\" value=\"#216eaf\" selected=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected=\"\">4</option>\n        </select>\n        <select title=\"Items\" name=\"itemsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected=\"\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#879a9f\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n    <div class=\"container\">\n        <div class=\"media-container-row content text-white\">\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <div class=\"media-wrap align-left\" mbr-if=\"showLogo\">\n                    \n                        <img src=\"@PROJECT_PATH@/assets/images/polizzavita.io-logo.svg\" alt=\"Mobirise\" title=\"\">\n                    \n                </div>\n\n                <p class=\"mbr-text align-left text1 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text1\">É&nbsp;un marchio Xure.it di Pasquale Caterisano <br>Via Pietro Valsecchi, 2 - 22033 Asso (CO)<br>RUI A000055288&nbsp; P. IVA&nbsp;04012380137<br>PEC: pasquale.caterisano@pec.it&nbsp;<br></p>\n\n                <div class=\"social-list align-left\" mbr-if=\"iconsCount > 0\">\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                        <a href=\"https://twitter.com/AssiDigital\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" style=\"color: rgb(205, 203, 52); fill: rgb(205, 203, 52);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                        <a href=\"https://www.facebook.com/WebMarketingAssicurativo/\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\" style=\"color: rgb(205, 203, 52); fill: rgb(205, 203, 52);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                        <a href=\"https://www.youtube.com/c/PasqualeCaterisano/\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\" style=\"color: rgb(205, 203, 52); fill: rgb(205, 203, 52);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                        <a href=\"https://www.linkedin.com/in/caterisano/\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-linkedin socicon\" style=\"color: rgb(205, 203, 52); fill: rgb(205, 203, 52);\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                        <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                            <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-googleplus socicon\" style=\"color: rgb(87, 70, 139); fill: rgb(87, 70, 139);\"></span>\n                        </a>\n                    </div>\n\n                </div>\n\n\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                <h5 class=\"pb-3 align-left\"><b>Informazioni di contatto e ufficio di rappresentanza</b></h5>\n\n\n                <div class=\"item\" mbr-if=\"itemsCount > 0\">\n                    <div class=\"card-img\"><span mbr-icon=\"\" class=\"mbr-iconfont img1 mobi-mbri-map-pin mobi-mbri\"></span>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"item-title align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title\"><b>Via Uberto Visconti di Modrone, 6</b></h4>\n                    </div>\n                </div>\n\n                <div class=\"item\" mbr-if=\"itemsCount > 1\">\n                    <div class=\"card-img\"><span mbr-icon=\"\" class=\"mbr-iconfont img1 mobi-mbri-pin mobi-mbri\"></span></div>\n                    <div class=\"card-box\">\n                        <h4 class=\"item-title align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title\"><b>20122 Milano</b></h4>\n                    </div>\n                </div>\n\n                <div class=\"item\" mbr-if=\"itemsCount > 2\">\n                    <div class=\"card-img\"><span mbr-icon=\"\" class=\"mbr-iconfont img1 mobi-mbri-letter mobi-mbri\"></span>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"item-title align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title\"><a href=\"mailto:info@polizzavita.io\" class=\"text-secondary text-primary\">info@polizzavita.io</a></h4>\n                    </div>\n                </div>\n\n                <div class=\"item\" mbr-if=\"itemsCount > 3\">\n                    <div class=\"card-img\"><span mbr-icon=\"\" class=\"mbr-iconfont img1 mobi-mbri-phone mobi-mbri\"></span>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"item-title align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title\"><a href=\"tel:+393382234395\" class=\"text-secondary\">+39 338 - 22 34 395</a></h4>\n                    </div>\n                </div>\n\n                <div class=\"item\" mbr-if=\"itemsCount > 4\">\n                    <div class=\"card-img\"><span mbr-icon=\"\" class=\"mbr-iconfont img1 mobi-mbri-phone mobi-mbri\"></span>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"item-title align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title\">+1 (0) 000 0000 001</h4>\n                    </div>\n                </div>\n\n\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n\n                <p class=\"mbr-text quote align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".quote\"><i>In collaborazione con:</i><br>Afi Esca S.A. Rappresentanza Generale per l’Italia - Via Vittor Pisani, 5 - 20124 Milano (MI)&nbsp;Tel: +39 02 5832 4845&nbsp;<i><br></i></p>\n\n                <div class=\"item\">\n                    <div class=\"card-img2\"><span mbr-icon=\"\" class=\"mbr-iconfont ico2 mbrib-lock\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); font-size: 24px;\"></span></div>\n                    <div class=\"card-box\">\n                        <h4 class=\"theme align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".theme\"><i>Autorizzata all'esercizio delle assicurazioni con iscrizione nell'Elenco I annesso all'Albo delle imprese di assicurazione e riassicurazione al n. I.00105</i></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                <h5 class=\"pb-3 align-left\"><a href=\"https://crea-assicurazioni.com/it/Home/Privacy\" target=\"_blank\" class=\"text-primary\"><b>Privacy e Cookie Policy</b></a></h5>\n                <p class=\"mbr-text align-left text2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".text2\">\n                    <a href=\"assets/files/Allegati-3-4-4ter-xure.it-Pasquale-Caterisano.pdf\" class=\"text-info text-primary\" target=\"_blank\">Allegato 3 ,&nbsp;&nbsp;Allegato 4,&nbsp; Allegato 4Ter</a><br><a href=\"https://www.afi-esca.it/pdf/Set_Vitruvio.pdf\" class=\"text-info text-primary\" target=\"_blank\">Set informativo</a><br><a href=\"https://www.afi-esca.it/pdf/Set_Vitruvio.pdf\" class=\"text-info text-primary\" target=\"_blank\">Condizioni di polizza</a><br><a href=\"reclami.html\" class=\"text-info\" target=\"_blank\">Reclami</a><br></p>\n\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-danger\" href=\"https://www.ivass.it/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-protect mbr-iconfont mbr-iconfont-btn\"></span>Attività di intermediazione assicurativa soggetta al controllo ed alla vigilanza di IVASS</a></div>\n\n            </div>\n        </div>\n\n\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "t7MH4DglsC",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "footer03-5d"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<div class=\"wrapper\">\n  <div class=\"h_iframe\">\n    <!-- a transparent image is preferable -->\n    <img class=\"ratio\" src=\"https://caterisano.quoteandbuy.it/Prodotto/TCM\">\n    <iframe frameborder=\"0\" height=\"auto\" width=\"auto\" scrolling=\"no\" src=\"https://caterisano.quoteandbuy.it/Prodotto/TCM\" allowfullscreen=\"\"></iframe>\n  </div>\n</div>",
+          "_customCSS": ".wrapper {\n  width: 100%;\n  height: 100%;\n  margin: 0 auto;\n  background: #ffffff;\n}\n\n.h_iframe {\n  position: relative;\n}\n\n.h_iframe .ratio {\n  display: block;\n  width: 100%;\n  height: auto;\n}\n\n.h_iframe iframe {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "techm4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-5e"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "img": {
+              "height": "100%",
+              "margin": "0 auto",
+              "padding-bottom": "2rem"
+            },
+            "H1": {
+              "color": "#57468b"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#716c80"
+            },
+            "H3": {
+              "color": "#716c80"
+            },
+            ".mbr-iconfont": {
+              "padding-left": "0.4rem"
+            },
+            ".link": {
+              "display": "flex",
+              "width": "fit-content",
+              "transition": "all 0.3s",
+              "align-items": "center",
+              ".link-ico": {
+                "padding-top": "2px",
+                "transition": "padding 0.3s"
+              },
+              "&:hover": {
+                "color": "@primaryColor !important"
+              },
+              "&:hover .link-ico": {
+                "color": "@primaryColor !important",
+                "padding-left": "10px"
+              }
+            },
+            "DIV": {
+              "color": "#57468b"
+            }
+          },
+          "_name": "content07",
+          "_sourceTheme": "techm4",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\" col-md-12 col-lg-12 align-left\">\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-regular pb-2 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-4\">WEB TECHNOLOGY</h3>\n                <h1 class=\"mbr-section-title align-left mbr-white pb-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Solutions For Your Business</h1>\n            </div>\n            <div class=\" col-md-12 col-lg-6 align-left\">\n                <p class=\"mbr-text align-left mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .media-content\"><a href=\"informativa-vendita-a-distanza.html\" class=\"text-danger\" target=\"_blank\">NORMATIVA LEGALE OBBLIGATORIA PER VENDITA A DISTANZA</a><br><br>Allegati IVASS:<a href=\"assets/files/Allegati-3-4-4ter-xure.it-Pasquale-Caterisano.pdf\" class=\"text-primary\" target=\"_blank\"> Allegato n° 3 - Allegato n° 4 - Allegato n° 4 Ter</a>.&nbsp; Il contratto di assicurazione che sta acquistando, è definito ai sensi del D. Lgs. 190/05 contratto a distanza ovvero \"contratto che viene concluso tra Consumatore e fornitore [AFI-ESCA] impiegando una o più tecniche di comunicazione a distanza fino alla conclusione del contratto, compresa la conclusione del contratto stesso\". Ai sensi dell'art. 67-quater del D. Lgs. 206/05 (Codice del Consumo) La informiamo che: Consumatore è qualsiasi persona fisica che agisce per fini che non rientrano nel quadro della propria attività imprenditoriale o professionale.&nbsp;</p>\n            </div>\n\n            <div class=\" col-md-12 col-lg-6 align-left\">\n                <p class=\"mbr-text align-left mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .media-content\">Il contratto di assicurazione proposto è regolato dalle condizioni di polizza che deve necessariamente visualizzare: <a href=\"https://www.afi-esca.it/pdf/Set_Vitruvio.pdf\" class=\"text-primary\" target=\"_blank\">Condizioni di polizza</a> - <a href=\"reclami.html\" class=\"text-primary\" target=\"_blank\">Reclami</a> - <a href=\"https://www.iubenda.com/private/privacy-policy/2203132/legal\" class=\"text-primary\" target=\"_blank\">Privacy</a>. Ai sensi dell'art. 67-duodecies comma 5b, il recesso non si applica alle polizze assicurative di durata inferiore ad un mese. Cliccando sui pulsanti di preventivazione polizza vita temporanea caso morte in questo sito, dichiaro di aver preso visione del <a href=\"https://www.afi-esca.it/pdf/Set_Vitruvio.pdf\" target=\"_blank\" class=\"text-primary\"><i>Set Informativo</i></a>, di acconsentire all'acquisto a distanza del contratto assicurativo, di prestare il consenso per il trattamento dei miei dati per finalità di gestione del contratto. Dichiaro altresì che la polizza corrisponde alle mie aspettative, sulla base delle indicazioni fornite. Intermediario: Pasquale Caterisano RUI A000055288 &nbsp;- PEC: pasquale.caterisano@pec.it&nbsp;</p>\n            </div>\n\n\n\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "t7MH4DYBps",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content07-5f"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer01",
+          "_sourceTheme": "techm4",
+          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1-2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#b1a374\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\"><b>Copyright&nbsp;© 2023 PolizzaVita.io - <a href=\"termini-e-condizioni.html\" class=\"text-info\" target=\"_blank\">Termini e condizioni</a> - All Rights Reserved.</b><br><br>This site is not a part of Facebook or Google websites.&nbsp; Additionally, this site is NOT endorsed by Facebook or Google in any way.&nbsp; Facebook is a trademark of Meta Platforms, Inc.&nbsp; Google is a trademark of Alphabet Inc.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "t7MH4EiUGK",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": true,
+          "_params": {},
+          "_anchor": "footer01-5g"
         }
       ]
     }
