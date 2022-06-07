@@ -2042,7 +2042,7 @@ section.lazy-placeholder:after {
 .cid-rlhJueYMuB .field-input:hover,
 .cid-rlhJueYMuB .form-control:focus,
 .cid-rlhJueYMuB .field-input:focus {
-  background-color: #bfceff;
+  background-color: #5580ff;
   border-color: #9cd33f;
   color: #ffffff;
   box-shadow: none;
@@ -2063,14 +2063,14 @@ section.lazy-placeholder:after {
 }
 .cid-rlhJueYMuB .jq-selectbox li:hover,
 .cid-rlhJueYMuB .jq-selectbox li.selected {
-  background-color: #bfceff;
-  color: #000000;
+  background-color: #5580ff;
+  color: #ffffff;
 }
 .cid-rlhJueYMuB .jq-selectbox:hover .jq-selectbox__trigger-arrow {
   border-top-color: #e1e8ff;
 }
 .cid-rlhJueYMuB .jq-selectbox .jq-selectbox__trigger-arrow {
-  border-top-color: #bfceff;
+  border-top-color: #5580ff;
 }
 .cid-rlhJueYMuB H5 {
   color: #216eaf;
